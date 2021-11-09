@@ -1,0 +1,73 @@
+header{
+    width: 100%;
+    padding: 0.5rem 10rem;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+}
+header .logo img{
+    width: 50px;
+}
+header .logo p{
+    margin-left: 1rem;
+    color: $white-color;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+header ul{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+header ul li{
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+    color: $white-color;
+    font-size: 1rem;
+    font-weight: 500;
+}
+header ul li.search form{
+    width: 30px;
+    position: relative;
+}
+header ul li.search form input{
+    width: 100%;
+    padding: .3rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    padding-right: 1.5rem;
+    background: transparent;
+}
+header ul li.search form .icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0.4rem;
+    color: $primary-color;
+    font-size: 1.2rem;
+    color: $white-color;
+}
+
+header ul li.search.active form{
+    width: 200px;
+}
+header ul li.search.active form input{
+    background: white;
+}
+header ul li.search.active form .icon{
+    color: $primary-color;
+}
+
+header .btn-signup{
+    background-color: $white-color;
+    color: $primary-color;
+}

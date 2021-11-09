@@ -3,11 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 .kh-font{
     font-family: 'Hanuman', serif;
 }
 .en-font{
     font-family: 'Poppins', sans-serif;
+}
+.btn{
+    padding: 0.2rem 1.2rem;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.color-white{
+    color: $white-color;
 }
