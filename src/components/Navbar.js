@@ -1,34 +1,41 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom';
+import {NavLink, Link} from 'react-router-dom';
 import Logo from '../images/rupp-logo.png'
-import {HiOutlineSearch} from 'react-icons/hi'
+import {HiOutlineSearch, HiMenu} from 'react-icons/hi'
+import {useActionContext} from '../contexts/actionContext'
 
 function Navbar() {
+    const {isSearch, OpenSearch} = useActionContext();
     return (
         <header className="en-font">
-            <NavLink to="/" className="logo">
-                <img src={Logo} alt="" />
-                <p>RUPP</p>
-            </NavLink>
-            <ul>
-                <li>
-                    <NavLink className="color-white" to="/">
-                        Home
-                    </NavLink>
-                </li>
-                <li>Faculty</li>
-                <li>Scholarship</li>
-                <li>News</li>
-                <li>Map</li>
-                <li>Contact</li>
-                <li className="search active">
-                    <form>
-                        <input type="text" placeholder="Search" />
-                        <HiOutlineSearch className="icon" />
-                    </form>
-                </li>
-            </ul>
-            <NavLink to="/signup" className="btn btn-signup">Sign Up</NavLink>
+            <div className="wrapper">
+                <NavLink to="/" className="logo">
+                    <img src={Logo} alt="" />
+                    <p>RUPP</p>
+                </NavLink>
+                <ul>
+                    <li>
+                        <NavLink className="color-white" to="/">
+                            Home
+                        </NavLink>
+                    </li>
+                    <li>Faculty</li>
+                    <li>Scholarship</li>
+                    <li>News</li>
+                    <li>Map</li>
+                    <li>Contact</li>
+                    <li className={`${isSearch?"search active":"search"}`}>
+                        <form>
+                            <input type="text" placeholder="Search" />
+                            <HiOutlineSearch onClick={OpenSearch} className="icon" />
+                        </form>
+                    </li>
+                </ul>
+                <div className="right">
+                    <HiMenu className="menu-icon" />
+                    <NavLink to="/signup" className="btn btn-signup">Sign Up</NavLink>
+                </div>
+            </div>
         </header>
     )
 }

@@ -13,13 +13,14 @@ import {
   Signin,
   UniversityInfo
 } from './pages';
-import {Navbar, Footer} from './components';
+import {Navbar, Footer, Sidebar} from './components';
 
 
 function App() {
   return (
     <Router>
         <Navbar />
+        <Sidebar />
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/news" element={<News />} />
