@@ -1,8 +1,22 @@
 import React from 'react'
+import {
+    Banner,
+    AboutUni,
+    HomeFaculty,
+    HomeScholarship,
+    LateNewsHome
+} from '../components';
+
 
 function Home() {
     return (
-        <h1>Home</h1>
+        <>
+            <Banner />
+            <AboutUni />
+            <HomeFaculty />
+            <HomeScholarship />
+            <LateNewsHome />
+        </>
     )
 }
 

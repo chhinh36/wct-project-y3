@@ -5,6 +5,7 @@ header{
     top: 0;
     left: 0;
     padding: .5rem;
+    z-index: 100;
     .wrapper{
         display: flex;
         justify-content: space-between;
@@ -14,14 +15,41 @@ header{
         .logo{
             display: flex;
             align-items: center;
+            gap: 15px;
             img{
                 width: 50px;
             }
             p{
-                margin-left: 1rem;
                 color: $white-color;
                 font-weight: bold;
                 font-size: 1.2rem;
+            }
+            .search-box{
+                display: none;
+                .frm{
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    .frm-control{
+                        border: none;
+                        outline: none;
+                        width: 100%;
+                        padding: 5px;
+                        border-radius: 15px;
+                    }
+                    .icon{
+                        position: absolute;
+                        top: 50%;
+                        right: 10px;
+                        transform: translateY(-50%);
+                        color: $primary-color;
+                    }
+                }
+            }
+            @media screen and (max-width: 1050px) {
+                .search-box{
+                    display: block;
+                }
             }
         }
         ul{
@@ -86,6 +114,7 @@ header{
                 background-color: $white-color;
                 color: $primary-color;
                 font-size: 15px;
+                min-width: 98px;
             }
             .menu-icon{
                 color: $white-color;

@@ -3,6 +3,42 @@
     width: 100vw;
     height: 100vh;
     top: 0;
-    left: 0;
-    background-color: orange;
+    right: -110%;
+    background-color: $white-color;
+    padding: 20px;
+    display: none;
+    transition: 0.5s linear;
+    z-index: 1000;
+    &.show-sidebar{
+        right: 0;
+    }
+    @media screen and (max-width: 1050px) {
+        display: block;
+    }
+    .header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .icon{
+            font-size: 28px;
+            cursor: pointer;
+            &:hover{
+                color: $primary-color;
+            }
+        }
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        li{
+            padding: 15px 0;
+            font-size: 22px;
+            cursor: pointer;
+            &:hover{
+                color: $primary-color;
+            }
+        }
+    }
 }

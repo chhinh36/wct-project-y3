@@ -1,0 +1,36 @@
+.faculty{
+    background: $section-color;
+    padding: 30px 20px;
+    .title{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        h2{
+            font-size: 34px;
+        }
+    }
+    .faculty-container{
+        .single-faculty{
+            width: 100%;
+            display: flex;
+            gap: 20px;
+            background: $white-color;
+            margin: 10px 0;
+            .left-style{
+                background: $primary-color;
+                flex-shrink: 0;
+                flex-basis: 30px;
+            }
+            .info{
+                padding: 10px 0;
+                flex-grow: 1;
+                h3{
+                    color: $primary-color;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -5,13 +5,19 @@ import {HiOutlineSearch, HiMenu} from 'react-icons/hi'
 import {useActionContext} from '../contexts/actionContext'
 
 function Navbar() {
-    const {isSearch, OpenSearch} = useActionContext();
+    const {isSearch, OpenSearch, openSidebar} = useActionContext();
     return (
         <header className="en-font">
             <div className="wrapper">
                 <NavLink to="/" className="logo">
                     <img src={Logo} alt="" />
                     <p>RUPP</p>
+                    <div className="search-box">
+                        <form className='frm'>
+                            <input type="text" placeholder="Search" className='frm-control' />
+                            <HiOutlineSearch className='icon' />
+                        </form>
+                    </div>
                 </NavLink>
                 <ul>
                     <li>
@@ -32,7 +38,7 @@ function Navbar() {
                     </li>
                 </ul>
                 <div className="right">
-                    <HiMenu className="menu-icon" />
+                    <HiMenu className="menu-icon" onClick={openSidebar} />
                     <NavLink to="/signup" className="btn btn-signup">Sign Up</NavLink>
                 </div>
             </div>
