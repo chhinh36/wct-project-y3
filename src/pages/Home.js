@@ -4,7 +4,10 @@ import {
     AboutUni,
     HomeFaculty,
     HomeScholarship,
-    LateNewsHome
+    LateNewsHome,
+    OurEvent,
+    LocationHome,
+    OurPartnership
 } from '../components';
 
 
@@ -16,6 +19,9 @@ function Home() {
             <HomeFaculty />
             <HomeScholarship />
             <LateNewsHome />
+            <OurEvent />
+            <LocationHome />
+            <OurPartnership />
         </>
     )
 }

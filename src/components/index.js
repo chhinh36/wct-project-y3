@@ -6,6 +6,12 @@ import AboutUni from "./AboutUni";
 import HomeFaculty from "./HomeFaculty";
 import HomeScholarship from "./HomeScholarship";
 import LateNewsHome from "./LateNewsHome";
+import OurEvent from "./OurEvent";
+import LocationHome from "./LocationHome";
+import OurPartnership from "./OurPartnership";
+import FacultyBanner from "./FacultyBanner";
+import FacultyAbout from "./FacultyAbout";
+import FacultyDepartment from "./FacultyDepartment";
 
 export {
     Navbar,
@@ -15,5 +21,11 @@ export {
     AboutUni,
     HomeFaculty,
     HomeScholarship,
-    LateNewsHome
+    LateNewsHome,
+    OurEvent,
+    LocationHome,
+    OurPartnership,
+    FacultyBanner,
+    FacultyAbout,
+    FacultyDepartment
 };

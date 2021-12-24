@@ -20,5 +20,5 @@ export {
     Register,
     Signup,
     Signin,
-    UniversityInfo
+    UniversityInfo,
 };

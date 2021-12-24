@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import {
+    FacultyBanner,
+    FacultyAbout,
+    FacultyDepartment
+} from '../components';
 
 function Faculty() {
     return (
-        <h1>Faculty</h1>
+        <>
+            <FacultyBanner />
+            <FacultyAbout />
+            <FacultyDepartment />
+        </>
     )
 }
 

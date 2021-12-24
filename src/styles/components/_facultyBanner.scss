@@ -1,0 +1,71 @@
+.faculty-banner{
+    background-image: url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1024/https://www.iimtindia.net/Blog/wp-content/uploads/2021/05/Top-skills-of-a-sucessful-field-engineer-1-1024x446.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: calc(100vh - 67px);
+    @media screen and (max-width: 686px) {
+        min-height: calc(100vh - 200px);
+    }
+    .text-wrapper{
+        padding: 30px;
+        width: 100%;
+        min-height: calc(100vh - 67px);
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        @media screen and (max-width: 686px) {
+            min-height: calc(100vh - 200px);
+        }
+        .faculty-name{
+            border-left: 8px solid #047DDE;
+            color: $white-color;
+            h2{
+                margin-left: 10px;
+                font-size: 80px;
+                @media screen and (max-width: 920px) {
+                    font-size: 60px;
+                }
+                @media screen and (max-width: 686px) {
+                    font-size: 50px;
+                }
+                @media screen and (max-width: 500px) {
+                    font-size: 40px;
+                }
+            }
+            h5{
+                margin-left: 10px;
+                font-size: 50px;
+                @media screen and (max-width: 920px) {
+                    font-size: 26px;
+                }
+            }
+        }
+        > h2{
+            font-size: 80px;
+            color: $white-color;
+            @media screen and (max-width: 920px) {
+                font-size: 60px;
+            }
+            @media screen and (max-width: 686px) {
+                font-size: 50px;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 40px;
+            }
+        }
+        > span{
+            color: $white-color;
+            font-size: 25px;
+            @media screen and (max-width: 920px) {
+                font-size: 18px;
+            }
+            @media screen and (max-width: 686px) {
+                font-size: 16px;
+            }
+        }
+    }
+}
