@@ -5,7 +5,7 @@ import {GrFormNext} from 'react-icons/gr';
 const FacultyDepartment = () => {
     return (
         <section className="faculty-department">
-            <div className="global-wrapper">
+            <div className="global-wrapper faculty-department-wrapper">
                 <div className="title">
                     <h2>Our Departments</h2>
                 </div>
@@ -17,7 +17,7 @@ const FacultyDepartment = () => {
                         <div className="right">
                             <h3>Information Technology Engineering</h3>
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti consectetur dolore optio amet excepturi dignissimos dolores quisquam, nihil facere numquam, distinctio deleniti ipsum praesentium ad. Ducimus quae esse, eum laudantium provident odio harum eveniet error quod ipsam. Maiores quasi ipsam eligendi alias eos ad et ut dolorem dolore quam!</span>
-                            <Link to="/">
+                            <Link to="/" className="btn-view-more">
                                 <span>View More</span>
                                 <GrFormNext className="icon" />
                             </Link>
@@ -29,8 +29,8 @@ const FacultyDepartment = () => {
                         </div>
                         <div className="right">
                             <h3>Information Technology Engineering</h3>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti consectetur dolore optio amet excepturi dignissimos dolores quisquam, nihil facere numquam, distinctio deleniti ipsum praesentium ad. Ducimus quae esse, eum laudantium provident odio harum eveniet error quod ipsam. Maiores quasi ipsam eligendi alias eos ad et ut dolorem dolore quam!</span>
-                            <Link to="/">
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            <Link to="/" className="btn-view-more">
                                 <span>View More</span>
                                 <GrFormNext className="icon" />
                             </Link>
@@ -43,7 +43,7 @@ const FacultyDepartment = () => {
                         <div className="right">
                             <h3>Information Technology Engineering</h3>
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti consectetur dolore optio amet excepturi dignissimos dolores quisquam, nihil facere numquam, distinctio deleniti ipsum praesentium ad. Ducimus quae esse, eum laudantium provident odio harum eveniet error quod ipsam. Maiores quasi ipsam eligendi alias eos ad et ut dolorem dolore quam!</span>
-                            <Link to="/">
+                            <Link to="/" className="btn-view-more">
                                 <span>View More</span>
                                 <GrFormNext className="icon" />
                             </Link>

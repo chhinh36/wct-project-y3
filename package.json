@@ -13,6 +13,7 @@
     "react-router-dom": "^6.0.1",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
+    "react-slidedown": "^2.4.6",
     "swiper": "^7.3.2"
   },
   "scripts": {

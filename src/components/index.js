@@ -12,6 +12,11 @@ import OurPartnership from "./OurPartnership";
 import FacultyBanner from "./FacultyBanner";
 import FacultyAbout from "./FacultyAbout";
 import FacultyDepartment from "./FacultyDepartment";
+import AcademicStaff from "./AcademicStaff";
+import DepartmentBanner from "./DepartmentBanner";
+import DepartmentAbout from "./DepartmentAbout";
+import DepartmentLabActivity from "./DepartmentLabActivity";
+import DepartmentStudentArchievement from "./DepartmentStudentArchievement";
 
 export {
     Navbar,
@@ -27,5 +32,10 @@ export {
     OurPartnership,
     FacultyBanner,
     FacultyAbout,
-    FacultyDepartment
+    FacultyDepartment,
+    AcademicStaff,
+    DepartmentBanner,
+    DepartmentAbout,
+    DepartmentLabActivity,
+    DepartmentStudentArchievement
 };

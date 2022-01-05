@@ -2,7 +2,8 @@ import React from 'react';
 import {
     FacultyBanner,
     FacultyAbout,
-    FacultyDepartment
+    FacultyDepartment,
+    AcademicStaff
 } from '../components';
 
 function Faculty() {
@@ -11,6 +12,7 @@ function Faculty() {
             <FacultyBanner />
             <FacultyAbout />
             <FacultyDepartment />
+            <AcademicStaff />
         </>
     )
 }

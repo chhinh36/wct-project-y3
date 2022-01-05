@@ -1,8 +1,19 @@
 import React from 'react'
+import {
+    DepartmentBanner,
+    DepartmentAbout,
+    DepartmentLabActivity,
+    DepartmentStudentArchievement
+} from '../components';
 
 const Department = () => {
     return (
-        <h1>Department</h1>
+        <>
+            <DepartmentBanner />
+            <DepartmentAbout />
+            <DepartmentLabActivity />
+            <DepartmentStudentArchievement />
+        </>
     )
 }
 
