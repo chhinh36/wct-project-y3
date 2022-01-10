@@ -1,0 +1,222 @@
+header{
+    width: 100%;
+    background-color: $primary-color;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: .5rem;
+    z-index: 100;
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1400px;
+        margin: 0 auto;
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            img{
+                width: 50px;
+            }
+            p{
+                color: $white-color;
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+            .search-box{
+                display: none;
+                .frm{
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    .frm-control{
+                        border: none;
+                        outline: none;
+                        width: 100%;
+                        padding: 5px;
+                        border-radius: 15px;
+                    }
+                    .icon{
+                        position: absolute;
+                        top: 50%;
+                        right: 10px;
+                        transform: translateY(-50%);
+                        color: $primary-color;
+                    }
+                }
+            }
+            @media screen and (max-width: 1050px) {
+                .search-box{
+                    display: block;
+                }
+            }
+        }
+        ul{
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            li{
+                padding: 0.8rem 1.2rem;
+                cursor: pointer;
+                color: $white-color;
+                font-size: 1rem;
+                font-weight: 500;
+                &.search{
+                    form{
+                        width: 30px;
+                        position: relative;
+                        transition: 0.5s linear;
+                        input{
+                            transition: 0.5s linear;
+                            width: 100%;
+                            padding: .3rem;
+                            outline: none;
+                            border: none;
+                            border-radius: 1rem;
+                            padding-right: 1.5rem;
+                            background: transparent;
+                        }
+                        .icon{
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: 0.4rem;
+                            color: $primary-color;
+                            font-size: 1.2rem;
+                            color: $white-color;
+                        }
+                    }
+                    &.active{
+                        form{
+                            width: 200px;
+                            input{
+                                background: white;
+                            }
+                            .icon{
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 1050px) {
+            ul{
+                display: none;
+            }
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .btn-signup{
+                background-color: $white-color;
+                color: $primary-color;
+                font-size: 15px;
+                min-width: 98px;
+            }
+            .menu-icon{
+                color: $white-color;
+                font-size: 34px;
+                margin-right: 1rem;
+                cursor: pointer;
+                transition: .5s;
+                display: none;
+                &:hover{
+                    transform: rotate(180deg);
+                }
+            }
+            @media screen and (max-width: 1050px){
+                .menu-icon{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/*header{
+    width: 100%;
+    padding: 0.5rem 10rem;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+}
+header .logo img{
+    width: 50px;
+}
+header .logo p{
+    margin-left: 1rem;
+    color: $white-color;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+header ul{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+header ul li{
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+    color: $white-color;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+header ul li.search form{
+    width: 30px;
+    position: relative;
+}
+
+
+
+header ul li.search form input{
+    width: 100%;
+    padding: .3rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    padding-right: 1.5rem;
+    background: transparent;
+}
+
+
+header ul li.search form .icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0.4rem;
+    color: $primary-color;
+    font-size: 1.2rem;
+    color: $white-color;
+}
+
+header ul li.search.active form{
+    width: 200px;
+}
+header ul li.search.active form input{
+    background: white;
+}
+header ul li.search.active form .icon{
+    color: $primary-color;
+}
+
+header .btn-signup{
+    background-color: $white-color;
+    color: $primary-color;
+}
+*/

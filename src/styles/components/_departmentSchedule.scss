@@ -1,0 +1,82 @@
+.department-schedule{
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 20px;
+    background: #E5E5E5;
+    .schedule-wrapper{
+        padding: 0 20px;
+        .title{
+            width: 100%;
+            h2{
+                font-size: 34px;
+                color: $primary-color;
+            }
+        }
+        .choose-year{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            ul{
+                display: flex;
+                border: 1px solid $primary-color;
+                padding: 0 20px;
+                background: $white-color;
+                li{
+                    font-size: 22px;
+                    font-weight: bold;
+                    padding: 10px 15px;
+                    cursor: pointer;
+                    &.active{
+                        border-bottom: 4px solid $primary-color;
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+        .body-table{
+            width: 100%;
+            background: $white-color;
+            .semester{
+                h3{
+                    padding: 8px 10px;
+                    font-size: 28px;
+                    color: $primary-color;
+                }
+            }
+            table{
+                width: 100%;
+                border-spacing: 0 10px;
+                tr{
+                    &:nth-child(odd){
+                        background-color: #F5F5F5;
+                        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                    }
+                    &:nth-child(even){
+                        background-color: #FFFFFF;
+                        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                    }
+                    th{
+                        background: $primary-color;
+                        color: $white-color;
+                        padding: 10px 0;
+                        font-size: 24px;
+                    }
+                    td{
+                        font-size: 20px;
+                        padding: 10px 0;
+                        text-align: center;
+                        &:first-child{
+                            padding-left: 30px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

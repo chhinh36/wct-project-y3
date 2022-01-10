@@ -1,0 +1,99 @@
+#footer{
+    background: $primary-color;
+    .footer-wrapper{
+        padding: 40px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        @media screen and (max-width: 846px) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .logo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            img{
+                width: 80px;
+            }
+            h3{
+                color: $white-color;
+            }
+        }
+        .quick-link{
+            h2{
+                color: $white-color;
+            }
+            ul{
+                margin-top: 10px;
+                list-style: none;
+                li{
+                    a{
+                        color: #ccc;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                    &::before{
+                        content: "\2022";
+                        color: $white-color;
+                        font-weight: bold;
+                        display: inline-block; 
+                        width: 1.2em;
+                        margin-left: 0em;
+                    }
+                }
+            }
+        }
+        .services,
+        .about-us{
+            h2{
+                color: $white-color;
+            }
+            p{
+                color: #ccc;
+                margin-top: 10px;
+            }
+        }
+        .contact-us{
+            h2{
+                color: $white-color;
+            }
+            .info-text{
+                margin-top: 10px;
+                div{
+                    display: flex;
+                    gap: 10px;
+                    margin: 5px 0;
+                    color: #ccc;
+                }
+            }
+            .social-media{
+                width: 100%;
+                display: flex;
+                gap: 15px;
+                font-size: 22px;
+                margin-top: 30px;
+                .icon{
+                    color: #ccc;
+                    &:hover{
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+    .copy-right{
+        width: 100%;
+        text-align: center;
+        padding: 8px;
+        background: #620000;
+        p{
+            color: $white-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.department-banner{
+    width: 100%;
+    height: calc(100vh - 67px);
+    background-image: url("https://ruppservice.ferupp.com/photos/shares/home/slides/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .department-banner-black{
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        .department-banner-wrapper{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h2{
+                color: $white-color;
+                font-size: 70px;
+                line-height: 100px;
+                text-align: center;
+                @media screen and (max-width: 1172px) {
+                    font-size: 50px;
+                }
+                @media screen and (max-width: 560px) {
+                    font-size: 40px;
+                    line-height: 70px;
+                }
+            }
+        }
+    }
+}
