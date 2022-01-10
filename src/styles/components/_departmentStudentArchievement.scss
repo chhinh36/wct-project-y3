@@ -46,5 +46,19 @@
                 }
             }
         }
+        .view-more{
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .link-view{
+                color: $primary-color;
+                font-size: 20px;
+                &:hover{
+                    text-decoration: underline;
+                    opacity: 0.8;
+                }
+            }
+        }
     }
 }

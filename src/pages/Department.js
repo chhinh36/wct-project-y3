@@ -3,7 +3,9 @@ import {
     DepartmentBanner,
     DepartmentAbout,
     DepartmentLabActivity,
-    DepartmentStudentArchievement
+    DepartmentStudentArchievement,
+    DepartmentResearch,
+    DepartmentSchedule
 } from '../components';
 
 const Department = () => {
@@ -13,6 +15,8 @@ const Department = () => {
             <DepartmentAbout />
             <DepartmentLabActivity />
             <DepartmentStudentArchievement />
+            <DepartmentResearch />
+            <DepartmentSchedule />
         </>
     )
 }

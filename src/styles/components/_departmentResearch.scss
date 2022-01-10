@@ -1,0 +1,74 @@
+.department-research{
+    width: 100%;
+    .de-research-wrapper{
+        padding: 0 20px;
+        .header{
+            width: 100%;
+            text-align: center;
+            background: $primary-color;
+            color: $white-color;
+            font-size: 24px;
+            padding: 10px 0;
+        }
+        .body{
+            width: 100%;
+            .single-research{
+                width: 100%;
+                border: 2px solid gray;
+                border-bottom: none;
+                &:last-child{
+                    border-bottom: 2px solid gray;
+                }
+                &.active{
+                    .info-wrapper{
+                        max-height: 10000px;
+                    }
+                    .title-research{
+                        border-bottom: 2px solid gray;
+                        h3{
+                            background-color: $primary-color;
+                            color: $white-color;
+                        }
+                    }
+                }
+                .title-research{
+                    color: $primary-color;
+                    font-size: 24px;
+                    cursor: pointer;
+                    h3{
+                        padding: 20px 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .icon-arrow-search{
+                            font-size: 34px;
+                            transition: 0.3s;
+                            &.active{
+                                transform: rotate(90deg);
+                            }
+                        }
+                    }
+                }
+                .info-wrapper{
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: 0.3s;
+                    .info{
+                        padding: 10px 20px;
+                        p{
+                            font-size: 22px;
+                            &:nth-child(1){
+                                margin: 20px 0;
+                                font-weight: 550;
+                            }
+                            &:nth-child(2){
+                                margin: 20px 0;
+                                font-weight: 550;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
