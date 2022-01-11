@@ -1,0 +1,17 @@
+.news-title{
+    background: $primary-color;
+    margin: 10px 0;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    h2{
+        font-size: 30px;
+        color: $white-color;
+    }
+    .left-line{
+        background: $white-color;
+        height: 50px;
+        width: 10px;
+    }
+}

@@ -1,8 +1,17 @@
 import React from 'react'
+import {
+    NewsBanner,
+    NewsTitle,
+    NewsBox
+} from '../components'
 
 function News() {
     return (
-        <h1>News</h1>
+        <>
+            <NewsBanner />
+            <NewsTitle />
+            <NewsBox />
+        </>
     )
 }
 

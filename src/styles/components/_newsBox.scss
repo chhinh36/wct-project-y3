@@ -1,0 +1,83 @@
+.news-box{
+    width: 100%;
+    .news-box-wrapper{
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        @media screen and (max-width: 1100px) {
+            grid-template-columns: 1fr;
+        }
+        .single-box{
+            height: 300px;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            transition: 0.2s;
+            @media screen and (max-width: 560px) {
+                grid-template-columns: 1fr;
+                grid-template-rows: 50% 50%;
+                height: 450px;
+            }
+            &:hover{
+                -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+                -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+                box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+            }
+            .img-box{
+                height: 100%;
+                @media screen and (max-width: 560px){
+                    height: auto;
+                }
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .info{
+                height: 100%;
+                @media screen and (max-width: 560px){
+                    height: auto;
+                }
+                .info-wrapper{
+                    padding: 20px;
+                    color: #000;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    h3{
+                        font-size: 28px;
+                    }
+                    p{
+                        margin: auto 0;
+                        font-size: 18px;
+                    }
+                    span{
+                        margin-top: auto;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
+    .view-more-wrapper{
+        padding: 0 20px;
+        margin: 30px auto;
+        .btn-view-more{
+            width: 100%;
+            background: #C50A2B;
+            color: $white-color;
+            border: none;
+            outline: none;
+            padding: 10px 0;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.2s;
+            &:hover{
+                background: $primary-color;
+            }
+        }
+    }
+}
