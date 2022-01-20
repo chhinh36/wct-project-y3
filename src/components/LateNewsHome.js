@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const LateNewsHome = () => {
     return (
-        <section className="late-news-home">
+        <section className="late-news-home en-font">
             <div className="global-wrapper">
                 <div className="title">
                     <h2>Latest News</h2>
@@ -24,34 +24,39 @@ const LateNewsHome = () => {
                             </Link>
                         </div>
                     </div>
+
                     <div className="right">
                         <div className="box">
                             <Link to="/" className='link-box'>
-                                <img src="https://lh3.googleusercontent.com/proxy/1kzPR0J2q6cwH6ZrH40B462g6_DdjQ-MmnbnUbtzQJtt9NeLB2G_x446msbCDzaayWesvLAd___Zqs2lwkWy_w" alt="" />
+                                
                                 <div className="info">
-                                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, laudantium!</span>
+                                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, laudantium!</h3>
+                                    <span>7th December, 2021</span>
+                                    <div className="news-underline"></div>
                                 </div>
                             </Link>
                         </div>
                         <div className="box">
                             <Link to="/" className='link-box'>
-                                <img src="https://athletics.co.ke/wp-content/uploads/2021/10/Galen-Rupp.jpg" alt="" />
+                                
                                 <div className="info">
-                                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, laudantium!</span>
+                                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, laudantium!</h3>
+                                    <span>7th December, 2021</span>
+                                    <div className="news-underline"></div>
                                 </div>
                             </Link>
                         </div>
                         <div className="box">
                             <Link to="/" className='link-box'>
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3dSykaaZg_WYWpW9Dwdqk6WlbfaDv_ULonL-3nYhidNWEzgWC_rJbfJ9hckWP4ZY3m5w&usqp=CAU" alt="" />
+                                
                                 <div className="info">
-                                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, laudantium!</span>
+                                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+                                    <span>7th December, 2021</span>
+                                    <div className="news-underline"></div>
                                 </div>
                             </Link>
                         </div>
-                        <div className="box-view-more">
-                            <Link to="/news" className="btn-view-more"><span>View More</span> {'>'}</Link>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

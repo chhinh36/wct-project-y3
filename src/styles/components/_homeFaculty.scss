@@ -1,12 +1,12 @@
 .faculty{
     background: $section-color;
-    padding: 30px 20px;
+    padding: 60px 20px;
     .title{
         width: 100%;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         h2{
-            font-size: 34px;
+            font-size: 45px;
         }
     }
     .faculty-container{
@@ -22,9 +22,10 @@
                 flex-basis: 30px;
             }
             .info{
-                padding: 10px 0;
+                padding: 25px 0;
                 flex-grow: 1;
                 h3{
+                    font-size: 25px;
                     color: $primary-color;
                     &:hover{
                         text-decoration: underline;

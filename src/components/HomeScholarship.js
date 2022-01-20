@@ -4,10 +4,11 @@ import { Swiper, SwiperSlide } from 'swiper/react/swiper-react.js';
 import SwiperCore, { Autoplay, Navigation  } from 'swiper';
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
+
 const HomeScholarship = () => {
     SwiperCore.use([Autoplay, Navigation]);
     return (
-        <section className="scholarship">
+        <section className="scholarship en-font">
             <div className="global-wrapper">
                 <div className="title">
                     <h2>Our Scholarship</h2>
