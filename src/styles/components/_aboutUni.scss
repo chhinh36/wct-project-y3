@@ -7,6 +7,7 @@
         display: grid;
         grid-template-columns: 500px 1fr;
         gap: 60px;
+
         @media screen and (max-width: 1000px) {
             grid-template-columns: 1fr;
         }
@@ -23,26 +24,35 @@
             }
         }
         .right{
+            padding: 0 30px;
             h2{
-                font-size: 30px;
+                font-size: 35px;
                 float: left;
                 font{
                     color: $primary-color;
                 }
             }
             p{
+                font-size: 20px;
                 color: $text-color;
                 margin-top: 15px;
                 float: left;
+                line-height: 140%;
             }
             .btn-learn-about{
                 font-size: 18px;
                 border: 2px solid $primary-color;
-                border-radius: 10px;
+                border-radius: 5px;
                 padding: 3px 10px;
-                margin-top: 15px;
+                margin-top: 40px;
                 float: left;
                 color: $primary-color;
+
+                &:hover {
+                    background-color: $primary-color;
+                    color: $white-color;
+                    transition: .3s ease-in-out;
+                }
             }
         }
     }
