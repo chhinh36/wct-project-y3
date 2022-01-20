@@ -11,13 +11,13 @@ const HomeFaculty = () => {
                 <div className="faculty-container">
                     <div className="single-faculty">
                         <div className="left-style"></div>
-                        <Link to="/" className="info">
+                        <Link to="/science" className="info">
                             <h3>Faculty of Science</h3>
                         </Link>
                     </div>
                     <div className="single-faculty">
                         <div className="left-style"></div>
-                        <Link to="/" className="info">
+                        <Link to="/humanity" className="info">
                             <h3>Faculty of Social Science and Humanities</h3>
                         </Link>
                     </div>
