@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const Banner = () => {
     return (
         <section id='banner'>
-            <img src="https://cdn.britannica.com/85/13085-050-C2E88389/Corpus-Christi-College-University-of-Cambridge-England.jpg" alt="University" />
+            <img src="https://www.hull.ac.uk/assets/section/homepage/images/content/web-full-screen-hull-university-welcome-week-2018-403-cropped-1900x800.x0826ac5b.jpg" alt="University" />
             <div className="banner-info">
                 <div className="title">
                     <h2>Welcome to the</h2>

@@ -17,7 +17,7 @@ const FacultyDepartment = () => {
                         <div className="right">
                             <h3>Information Technology Engineering</h3>
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti consectetur dolore optio amet excepturi dignissimos dolores quisquam, nihil facere numquam, distinctio deleniti ipsum praesentium ad. Ducimus quae esse, eum laudantium provident odio harum eveniet error quod ipsam. Maiores quasi ipsam eligendi alias eos ad et ut dolorem dolore quam!</span>
-                            <Link to="/" className="btn-view-more">
+                            <Link to="/fe/:department" className="btn-view-more">
                                 <span>View More</span>
                                 <GrFormNext className="icon" />
                             </Link>

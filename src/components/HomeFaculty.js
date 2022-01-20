@@ -12,31 +12,37 @@ const HomeFaculty = () => {
                     <div className="single-faculty">
                         <div className="left-style"></div>
                         <Link to="/" className="info">
-                            <h3>Information Technology Engineering Information Technology Engineering Information Technology Engineering</h3>
+                            <h3>Faculty of Science</h3>
                         </Link>
                     </div>
                     <div className="single-faculty">
                         <div className="left-style"></div>
                         <Link to="/" className="info">
-                            <h3>Information Technology Engineering</h3>
+                            <h3>Faculty of Social Science and Humanities</h3>
+                        </Link>
+                    </div>
+                    <div className="single-faculty">
+                        <div className="left-style"></div>
+                        <Link to="/fe" className="info">
+                            <h3>Faculty of Engineering</h3>
                         </Link>
                     </div>
                     <div className="single-faculty">
                         <div className="left-style"></div>
                         <Link to="/" className="info">
-                            <h3>Information Technology Engineering</h3>
+                            <h3>Faculty of Development Studies</h3>
                         </Link>
                     </div>
                     <div className="single-faculty">
                         <div className="left-style"></div>
                         <Link to="/" className="info">
-                            <h3>Information Technology Engineering</h3>
+                            <h3>Faculty of Education</h3>
                         </Link>
                     </div>
                     <div className="single-faculty">
                         <div className="left-style"></div>
                         <Link to="/" className="info">
-                            <h3>Information Technology Engineering</h3>
+                            <h3>Institute of Foriegn Languages</h3>
                         </Link>
                     </div>
                 </div>

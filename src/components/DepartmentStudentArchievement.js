@@ -10,7 +10,7 @@ const DepartmentStudentArchievement = () => {
                 </div>
                 <div className="body">
                     <div className="single-item">
-                        <Link to="/">
+                        <Link to="/news/0">
                             <div className="img-box">
                                 <img src="https://i.pinimg.com/564x/4b/87/f0/4b87f0ec7e9db63ad5f649ec06cb9020.jpg" alt="" />
                             </div>
@@ -22,7 +22,7 @@ const DepartmentStudentArchievement = () => {
                         </Link>
                     </div>
                     <div className="single-item">
-                        <Link to="/">
+                        <Link to="/news/0">
                             <div className="img-box">
                                 <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
                             </div>
@@ -34,7 +34,7 @@ const DepartmentStudentArchievement = () => {
                         </Link>
                     </div>
                     <div className="single-item">
-                        <Link to="/">
+                        <Link to="/news/0">
                             <div className="img-box">
                                 <img src="https://i.pinimg.com/564x/4b/87/f0/4b87f0ec7e9db63ad5f649ec06cb9020.jpg" alt="" />
                             </div>
@@ -46,7 +46,7 @@ const DepartmentStudentArchievement = () => {
                         </Link>
                     </div>
                     <div className="single-item">
-                        <Link to="/">
+                        <Link to="/news/0">
                             <div className="img-box">
                                 <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
                             </div>
@@ -58,7 +58,7 @@ const DepartmentStudentArchievement = () => {
                         </Link>
                     </div>
                     <div className="single-item">
-                        <Link to="/">
+                        <Link to="/news/0">
                             <div className="img-box">
                                 <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
                             </div>
@@ -70,7 +70,7 @@ const DepartmentStudentArchievement = () => {
                         </Link>
                     </div>
                     <div className="single-item">
-                        <Link to="/">
+                        <Link to="/news/0">
                             <div className="img-box">
                                 <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
                             </div>
@@ -82,7 +82,7 @@ const DepartmentStudentArchievement = () => {
                         </Link>
                     </div>
                     <div className="single-item">
-                        <Link to="/">
+                        <Link to="/news/0">
                             <div className="img-box">
                                 <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
                             </div>
@@ -94,7 +94,7 @@ const DepartmentStudentArchievement = () => {
                         </Link>
                     </div>
                     <div className="single-item">
-                        <Link to="/">
+                        <Link to="/news/0">
                             <div className="img-box">
                                 <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
                             </div>

@@ -13,7 +13,7 @@ const LateNewsHome = () => {
                     <div className="left">
                         <div className="photo-box">
                             <Link to="/">
-                                <img src="https://lh3.googleusercontent.com/proxy/Hfd3YzqmCbjh7fMQIR7JD_E4CoZ0vs3JvvLnEzLStoCRsRMeiepTs_m2BkzpRdQ4_sWhCiDjo4BMaa3VrBN9O4JcGpa2DQ" alt="" />
+                                <img src="http://www.rupp.edu.kh/news/documents/145_Details.png" alt="" />
                             </Link>
                         </div>
                         <div className="info">
@@ -50,7 +50,7 @@ const LateNewsHome = () => {
                             </Link>
                         </div>
                         <div className="box-view-more">
-                            <Link to="/" className="btn-view-more"><span>View More</span> {'>'}</Link>
+                            <Link to="/news" className="btn-view-more"><span>View More</span> {'>'}</Link>
                         </div>
                     </div>
                 </div>

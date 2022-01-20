@@ -19,6 +19,9 @@ import DepartmentLabActivity from "./DepartmentLabActivity";
 import DepartmentStudentArchievement from "./DepartmentStudentArchievement";
 import DepartmentResearch from "./DepartmentResearch";
 import DepartmentSchedule from "./DepartmentSchedule";
+import NewsBanner from "./NewsBanner";
+import NewsTitle from "./NewsTitle";
+import NewsBox from "./NewsBox";
 
 export {
     Navbar,
@@ -41,5 +44,8 @@ export {
     DepartmentLabActivity,
     DepartmentStudentArchievement,
     DepartmentResearch,
-    DepartmentSchedule
+    DepartmentSchedule,
+    NewsBanner,
+    NewsTitle,
+    NewsBox
 };
