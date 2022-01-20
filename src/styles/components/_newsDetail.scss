@@ -1,0 +1,28 @@
+.news-detail{
+    padding: 20px;
+    .news-detail-wrapper{
+        .title{
+            width: 100%;
+            margin-bottom: 10px;
+            h2{
+                font-size: 34px;
+            }
+        }
+        .view-date{
+            width: 100%;
+            span{
+                font-size: 18px;
+                color: #717171;
+            }
+        }
+        .share-container{
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            button{
+                flex-basis: 150px;
+            }
+        }
+    }
+}
