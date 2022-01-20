@@ -12,7 +12,7 @@ const Banner = () => {
                     <h2>Universit</h2>
                 </div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quisquam velit sunt est ratione fugit nam debitis nesciunt alias hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda porro voluptate temporibus ipsum, accusantium ullam tempora debitis alias corporis.</p>
-                <Link to="/" className='btn-banner'>Learn More</Link>
+                <Link to="/university-info" className='btn-banner'>Learn More</Link>
             </div>
         </section>
     )
