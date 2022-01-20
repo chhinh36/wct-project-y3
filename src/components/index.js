@@ -22,6 +22,8 @@ import DepartmentSchedule from "./DepartmentSchedule";
 import NewsBanner from "./NewsBanner";
 import NewsTitle from "./NewsTitle";
 import NewsBox from "./NewsBox";
+import SingleRecent from "./SingleRecent";
+import SingleOtherArticle from "./SingleOtherArticle";
 
 export {
     Navbar,
@@ -47,5 +49,7 @@ export {
     DepartmentSchedule,
     NewsBanner,
     NewsTitle,
-    NewsBox
+    NewsBox,
+    SingleRecent,
+    SingleOtherArticle
 };
