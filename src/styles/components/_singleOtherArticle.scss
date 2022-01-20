@@ -1,0 +1,36 @@
+.other-article-news.sinlge-box{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 20px;
+    @media screen and (max-width: 930px) {
+        grid-template-columns: 1fr;
+    }
+    .img-box{
+        height: 200px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.3s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .info{
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        h5{
+            font-size: 20px;
+            color: initial;
+            &:hover{
+                color: red;
+            }
+        }
+        span{
+            margin-top: auto;
+        }
+    }
+}
