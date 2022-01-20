@@ -1,0 +1,45 @@
+.uni-info {
+    padding: 30px;
+    
+    .vision {
+        margin-top: 80px;
+    }
+    .description {
+        h2 {
+            font-size: 40px;
+            margin: 20px auto;
+        }
+        p {
+            font-size: 22px;
+            margin-top: 20px;
+            line-height: 140%;
+        }
+        ul {
+            margin: 20px 40px;
+            li {
+                font-size: 20px;
+                list-style-type: disc;
+                margin: 8px 0;
+            }
+        }
+
+        img {
+            float: right;
+            width: 500px;
+            height: 300px;
+            margin: 0 0 40px 40px;
+        }
+        @media screen and (max-width: 850px) {
+            display: grid;
+            grid-template-columns: 1fr;
+            img { 
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 70%;
+            }
+        }
+    }
+
+    
+}

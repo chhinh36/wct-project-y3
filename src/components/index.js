@@ -24,6 +24,7 @@ import NewsTitle from "./NewsTitle";
 import NewsBox from "./NewsBox";
 import SingleRecent from "./SingleRecent";
 import SingleOtherArticle from "./SingleOtherArticle";
+import { UniversityInfo } from "../pages";
 
 export {
     Navbar,
@@ -51,5 +52,6 @@ export {
     NewsTitle,
     NewsBox,
     SingleRecent,
-    SingleOtherArticle
+    SingleOtherArticle,
+    UniversityInfo
 };
