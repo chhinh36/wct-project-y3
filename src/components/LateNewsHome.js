@@ -1,36 +1,52 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import { AiOutlineArrowRight } from 'react-icons/ai';
+
 
 const LateNewsHome = () => {
     return (
         <section className="late-news-home en-font">
             <div className="global-wrapper">
                 <div className="title">
-                    <h2>Latest News</h2>
+                    <h2>News</h2>
                     <div className="underline"></div>
                 </div>
                 <div className="late-news-wrapper">
                     <div className="left">
+                        <h3>recent news</h3>
                         <div className="photo-box">
+                            
                             <Link to="/">
-                                <img src="http://www.rupp.edu.kh/news/documents/145_Details.png" alt="" />
+                                <img src="https://www.vital.com.kh/wp-content/uploads/2020/10/120814898_2760672490816921_1944186427226243318_o-1024x683.jpg" alt="" />
                             </Link>
                         </div>
                         <div className="info">
                             <Link to="/" className='link-info'>
-                                <h3>Printing and typesetting industry</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, incidunt? Obcaecati iusto, sint quae quidem ex non exercitationem rerum explicabo quia sit ipsam doloremque commodi laboriosam et voluptatem aspernatur aperiam.</p>
+                                <h3>vital sponsoring for robot competition 2020 - vital premium water</h3>
+    
                                 <span>Octobor 14th, 2021</span>
                             </Link>
                         </div>
                     </div>
 
                     <div className="right">
+                        <Link to='/news'>
+                            <div className='box'>
+                                
+                                    <h3 className='view-more'>
+                                        <span className='view-all-news'>explore more news</span>
+                                        <AiOutlineArrowRight className='arrow'/>
+                                    </h3>
+                                    
+                               
+                            </div>
+                        </Link>
+                        
                         <div className="box">
                             <Link to="/" className='link-box'>
                                 
                                 <div className="info">
-                                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, laudantium!</h3>
+                                    <h3>vital sponsoring for robot competition 2020 - vital premium water</h3>
                                     <span>7th December, 2021</span>
                                     <div className="news-underline"></div>
                                 </div>
@@ -40,7 +56,7 @@ const LateNewsHome = () => {
                             <Link to="/" className='link-box'>
                                 
                                 <div className="info">
-                                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, laudantium!</h3>
+                                    <h3>vital sponsoring for robot competition 2020 - vital premium water</h3>
                                     <span>7th December, 2021</span>
                                     <div className="news-underline"></div>
                                 </div>
@@ -50,7 +66,7 @@ const LateNewsHome = () => {
                             <Link to="/" className='link-box'>
                                 
                                 <div className="info">
-                                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+                                    <h3>vital sponsoring for robot competition 2020 - vital premium water</h3>
                                     <span>7th December, 2021</span>
                                     <div className="news-underline"></div>
                                 </div>
