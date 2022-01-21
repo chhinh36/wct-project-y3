@@ -30,8 +30,6 @@ const HomeScholarship = () => {
                         disableOnInteraction: false,
                         pauseOnMouseEnter: true
                     }}
-                    // onSlideChange={() => console.log('slide change')}
-                    // onSwiper={(swiper) => console.log(swiper)}
                 >
                     <SwiperSlide className="slide">
                         <Link to="/">
