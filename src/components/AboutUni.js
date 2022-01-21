@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const AboutUni = () => {
     return (
-        <section id="about-university">
+        <section className='en-font' id="about-university" >
             <div className="global-wrapper about-wrapper">
                 <div className="left">
                     <iframe style={{pointerEvents: "none"}} src="https://www.youtube.com/embed/wjxBvFr2ZMU?controls=0&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
