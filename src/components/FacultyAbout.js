@@ -2,7 +2,7 @@ import React from 'react'
 
 const FacultyAbout = () => {
     return (
-        <section className="faculty-about">
+        <section className="faculty-about en-font">
             <div className="global-wrapper faculty-about-wrapper">
                 <div className="title">
                     <h2>About FE</h2>

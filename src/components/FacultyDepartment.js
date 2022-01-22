@@ -5,7 +5,7 @@ import {GrFormNext} from 'react-icons/gr';
 const FacultyDepartment = () => {
     const {faculty: facultyUrl} = useParams();
     return (
-        <section className="faculty-department">
+        <section className="faculty-department en-font">
             <div className="global-wrapper faculty-department-wrapper">
                 <div className="title">
                     <h2>Our Departments</h2>

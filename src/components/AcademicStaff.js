@@ -12,7 +12,7 @@ const AcademicStaff = () => {
         }
     }
     return (
-        <section className="academic-staff">
+        <section className="academic-staff en-font">
             <div className="global-wrapper academic-staff-wrapper">
                 <div className="title">
                     <h3>Academic Staff</h3>
