@@ -11,7 +11,8 @@ import {
   Register,
   Signup,
   Signin,
-  UniversityInfo
+  UniversityInfo,
+  Registration
 } from './pages';
 import {Navbar, Footer, Sidebar} from './components';
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/registration" element={<Registration />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
