@@ -1,8 +1,9 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link, useParams} from 'react-router-dom';
 import {GrFormNext} from 'react-icons/gr';
 
 const FacultyDepartment = () => {
+    const {faculty: facultyUrl} = useParams();
     return (
         <section className="faculty-department">
             <div className="global-wrapper faculty-department-wrapper">
@@ -17,7 +18,7 @@ const FacultyDepartment = () => {
                         <div className="right">
                             <h3>Information Technology Engineering</h3>
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti consectetur dolore optio amet excepturi dignissimos dolores quisquam, nihil facere numquam, distinctio deleniti ipsum praesentium ad. Ducimus quae esse, eum laudantium provident odio harum eveniet error quod ipsam. Maiores quasi ipsam eligendi alias eos ad et ut dolorem dolore quam!</span>
-                            <Link to="/fe/:department" className="btn-view-more">
+                            <Link to={`/${facultyUrl}/information-technology-engineering`} className="btn-view-more">
                                 <span>View More</span>
                                 <GrFormNext className="icon" />
                             </Link>
@@ -30,7 +31,7 @@ const FacultyDepartment = () => {
                         <div className="right">
                             <h3>Information Technology Engineering</h3>
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-                            <Link to="/" className="btn-view-more">
+                            <Link to={`/${facultyUrl}/information-technology-engineering`} className="btn-view-more">
                                 <span>View More</span>
                                 <GrFormNext className="icon" />
                             </Link>
@@ -43,7 +44,7 @@ const FacultyDepartment = () => {
                         <div className="right">
                             <h3>Information Technology Engineering</h3>
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti consectetur dolore optio amet excepturi dignissimos dolores quisquam, nihil facere numquam, distinctio deleniti ipsum praesentium ad. Ducimus quae esse, eum laudantium provident odio harum eveniet error quod ipsam. Maiores quasi ipsam eligendi alias eos ad et ut dolorem dolore quam!</span>
-                            <Link to="/" className="btn-view-more">
+                            <Link to={`/${facultyUrl}/information-technology-engineering`} className="btn-view-more">
                                 <span>View More</span>
                                 <GrFormNext className="icon" />
                             </Link>

@@ -12,7 +12,7 @@ const DepartmentStudentArchievement = () => {
                     <div className="single-item">
                         <Link to="/news/0">
                             <div className="img-box">
-                                <img src="https://i.pinimg.com/564x/4b/87/f0/4b87f0ec7e9db63ad5f649ec06cb9020.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/phan-phanit/image/upload/v1642820977/RUPP-Project/Kirra-student_igzufm.jpg" alt="" />
                             </div>
                             <div className="info">
                                 <h3>Student's Name</h3>
@@ -24,7 +24,7 @@ const DepartmentStudentArchievement = () => {
                     <div className="single-item">
                         <Link to="/news/0">
                             <div className="img-box">
-                                <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/phan-phanit/image/upload/v1642820977/RUPP-Project/student-archievement_t7fzmk.jpg" alt="" />
                             </div>
                             <div className="info">
                                 <h3>Student's Name</h3>
@@ -36,7 +36,7 @@ const DepartmentStudentArchievement = () => {
                     <div className="single-item">
                         <Link to="/news/0">
                             <div className="img-box">
-                                <img src="https://i.pinimg.com/564x/4b/87/f0/4b87f0ec7e9db63ad5f649ec06cb9020.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/phan-phanit/image/upload/v1642820975/RUPP-Project/student-archievement1_k1uqza.jpg" alt="" />
                             </div>
                             <div className="info">
                                 <h3>Student's Name</h3>
@@ -48,7 +48,7 @@ const DepartmentStudentArchievement = () => {
                     <div className="single-item">
                         <Link to="/news/0">
                             <div className="img-box">
-                                <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/phan-phanit/image/upload/v1642820977/RUPP-Project/Kirra-student_igzufm.jpg" alt="" />
                             </div>
                             <div className="info">
                                 <h3>Student's Name</h3>
@@ -60,7 +60,7 @@ const DepartmentStudentArchievement = () => {
                     <div className="single-item">
                         <Link to="/news/0">
                             <div className="img-box">
-                                <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/phan-phanit/image/upload/v1642820977/RUPP-Project/student-archievement_t7fzmk.jpg" alt="" />
                             </div>
                             <div className="info">
                                 <h3>Student's Name</h3>
@@ -72,7 +72,7 @@ const DepartmentStudentArchievement = () => {
                     <div className="single-item">
                         <Link to="/news/0">
                             <div className="img-box">
-                                <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/phan-phanit/image/upload/v1642820975/RUPP-Project/student-archievement1_k1uqza.jpg" alt="" />
                             </div>
                             <div className="info">
                                 <h3>Student's Name</h3>
@@ -84,7 +84,7 @@ const DepartmentStudentArchievement = () => {
                     <div className="single-item">
                         <Link to="/news/0">
                             <div className="img-box">
-                                <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/phan-phanit/image/upload/v1642820977/RUPP-Project/Kirra-student_igzufm.jpg" alt="" />
                             </div>
                             <div className="info">
                                 <h3>Student's Name</h3>
@@ -96,7 +96,7 @@ const DepartmentStudentArchievement = () => {
                     <div className="single-item">
                         <Link to="/news/0">
                             <div className="img-box">
-                                <img src="https://i.pinimg.com/736x/b1/1a/fd/b11afdc0ae1b58053da6a8ce9e9f925d.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/phan-phanit/image/upload/v1642820977/RUPP-Project/student-archievement_t7fzmk.jpg" alt="" />
                             </div>
                             <div className="info">
                                 <h3>Student's Name</h3>

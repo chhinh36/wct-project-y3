@@ -8,7 +8,7 @@ import 'swiper/swiper.min.css'
 const OurEvent = () => {
     SwiperCore.use([Autoplay, Navigation]);
     return (
-        <section className="our-event">
+        <section className="our-event en-font">
             <div className="global-wrapper">
                 <div className="title">
                     <h2>Our Event</h2>
@@ -26,31 +26,31 @@ const OurEvent = () => {
                     }}
                 >
                     <SwiperSlide className="slide">
-                        <Link to="/">
+                        <Link to="/news/1">
                             <img src="https://i0.wp.com/phoura-y.com/wp-content/uploads/2020/05/Monash-Uni.jpg?resize=800%2C445&ssl=1" alt="scholarship" />
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide className="slide">
-                        <Link to="/">
+                        <Link to="/news/1">
                             <img src="https://i0.wp.com/phoura-y.com/wp-content/uploads/2020/05/Monash-Uni.jpg?resize=800%2C445&ssl=1" alt="scholarship" />
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide className="slide">
-                        <Link to="/">
+                        <Link to="/news/1">
                             <img src="https://i0.wp.com/phoura-y.com/wp-content/uploads/2020/05/Monash-Uni.jpg?resize=800%2C445&ssl=1" alt="scholarship" />
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide className="slide">
-                        <Link to="/">
+                        <Link to="/news/1">
                             <img src="https://i0.wp.com/phoura-y.com/wp-content/uploads/2020/05/Monash-Uni.jpg?resize=800%2C445&ssl=1" alt="scholarship" />
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide className="slide">
-                        <Link to="/">
+                        <Link to="/news/1">
                             <img src="https://i0.wp.com/phoura-y.com/wp-content/uploads/2020/05/Monash-Uni.jpg?resize=800%2C445&ssl=1" alt="scholarship" />
                         </Link>
                         <div className="info">
-                            <Link to="/" className="link-info">
+                            <Link to="/news/1" className="link-info">
                                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatem.</h3>
                             </Link>
                         </div>
