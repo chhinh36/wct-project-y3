@@ -4,7 +4,7 @@ const AcademicStaffInfo = () => {
     return (
         <div className="staff-info">
             <div className="photo-box">
-                <img src="https://i.pinimg.com/564x/96/ae/d3/96aed301b90739d3e946a19e0c71cbd3.jpg" alt="" />
+                <img src="https://res.cloudinary.com/phan-phanit/image/upload/v1642820340/RUPP-Project/teacher_lqmc15.jpg" alt="" />
             </div>
             <div className="research-field">
                 <h2>Research and interested field</h2>
