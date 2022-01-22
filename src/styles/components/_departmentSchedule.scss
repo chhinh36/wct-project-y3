@@ -1,5 +1,5 @@
 .department-schedule{
-    padding: 20px 0;
+    padding: 60px 0;
     width: 100%;
     margin-top: 20px;
     background: #E5E5E5;
@@ -8,8 +8,9 @@
         .title{
             width: 100%;
             h2{
-                font-size: 34px;
+                font-size: 45px;
                 color: $primary-color;
+                text-transform: uppercase;
             }
         }
         .choose-year{

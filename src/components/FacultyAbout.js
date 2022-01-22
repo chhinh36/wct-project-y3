@@ -10,7 +10,7 @@ const FacultyAbout = () => {
                 </div>
                 <div className="body-wrapper">
                     <div className="left">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus facilis aliquid similique, ea ut esse facere illum recusandae veritatis aperiam sit magnam, labore dolorum consequatur earum voluptatum. Ab, cumque dolor. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, qui neque! Omnis laboriosam culpa natus. Expedita fugit eaque architecto tempore voluptatum incidunt ut facere atque doloremque veniam, soluta accusantium exercitationem.</p>
+                        <p> facilis aliquid similique, ea ut esse facere illum recusandae veritatis aperiam sit magnam, labore dolorum consequatur earum voluptatum. Ab, cumque dolor. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, qui neque! Omnis laboriosam culpa natus. Expedita fugit eaque architecto tempore voluptatum incidunt ut facere atque doloremque veniam, soluta accusantium exercitationem.</p>
                     </div>
                     <div className="right">
                         <img src="https://rmcd-construction.com/wp-content/uploads/2020/11/Picture2-1.png" alt="" />

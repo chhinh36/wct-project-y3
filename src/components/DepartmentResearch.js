@@ -7,7 +7,7 @@ const DepartmentResearch = () => {
         setIndexActive(index)
     }
     return (
-        <section className="department-research">
+        <section className="department-research en-font">
             <div className="global-wrapper de-research-wrapper">
                 <div className="header">
                     <h2>Research</h2>

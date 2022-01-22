@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const DepartmentStudentArchievement = () => {
     return (
-        <section className="student-achievement">
+        <section className="student-achievement en-font">
             <div className="global-wrapper student-achievement-wrapper">
                 <div className="title">
                     <h2>Student Archievement</h2>
