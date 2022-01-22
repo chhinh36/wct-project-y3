@@ -31,6 +31,9 @@
                 h3{
                     color: $primary-color;
                     font-size: 28px;
+                    &:hover{
+                        opacity: 0.8;
+                    }
                 }
             }
         }

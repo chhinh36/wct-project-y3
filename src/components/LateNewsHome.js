@@ -16,12 +16,12 @@ const LateNewsHome = () => {
                         <h3>recent news</h3>
                         <div className="photo-box">
                             
-                            <Link to="/">
+                            <Link to="/news/1">
                                 <img src="https://www.vital.com.kh/wp-content/uploads/2020/10/120814898_2760672490816921_1944186427226243318_o-1024x683.jpg" alt="" />
                             </Link>
                         </div>
                         <div className="info">
-                            <Link to="/" className='link-info'>
+                            <Link to="/news/1" className='link-info'>
                                 <h3>vital sponsoring for robot competition 2020 - vital premium water</h3>
     
                                 <span>Octobor 14th, 2021</span>
@@ -30,7 +30,7 @@ const LateNewsHome = () => {
                     </div>
 
                     <div className="right">
-                        <Link to='/news'>
+                        <Link to="/news">
                             <div className='box'>
                                 
                                     <h3 className='view-more'>
@@ -43,7 +43,7 @@ const LateNewsHome = () => {
                         </Link>
                         
                         <div className="box">
-                            <Link to="/" className='link-box'>
+                            <Link to="/news/1" className='link-box'>
                                 
                                 <div className="info">
                                     <h3>vital sponsoring for robot competition 2020 - vital premium water</h3>
@@ -53,7 +53,7 @@ const LateNewsHome = () => {
                             </Link>
                         </div>
                         <div className="box">
-                            <Link to="/" className='link-box'>
+                            <Link to="/news/1" className='link-box'>
                                 
                                 <div className="info">
                                     <h3>vital sponsoring for robot competition 2020 - vital premium water</h3>
@@ -63,7 +63,7 @@ const LateNewsHome = () => {
                             </Link>
                         </div>
                         <div className="box">
-                            <Link to="/" className='link-box'>
+                            <Link to="/news/1" className='link-box'>
                                 
                                 <div className="info">
                                     <h3>vital sponsoring for robot competition 2020 - vital premium water</h3>
