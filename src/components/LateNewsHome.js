@@ -30,19 +30,15 @@ const LateNewsHome = () => {
                     </div>
 
                     <div className="right">
-                        <Link to="/news">
-                            <div className='box'>
-                                
-                                    <h3 className='view-more'>
-                                        <span className='view-all-news'>explore more news</span>
-                                        <AiOutlineArrowRight className='arrow'/>
-                                    </h3>
-                                    
-                               
-                            </div>
-                        </Link>
                         
                         <div className="box">
+                            <Link to="/news">
+                                <h3 className='view-more'>
+                                    <span className='view-all-news'>explore more news</span>
+                                    <AiOutlineArrowRight className='arrow'/>
+                                </h3>
+                            </Link>
+                            
                             <Link to="/news/1" className='link-box'>
                                 
                                 <div className="info">

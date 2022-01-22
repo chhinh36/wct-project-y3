@@ -7,7 +7,7 @@ import {BiCopyright} from 'react-icons/bi';
 function Footer() {
     const navigate = useNavigate ();
     return (
-        <section id="footer">
+        <section className='en-font' id="footer">
             <div className="global-wrapper footer-wrapper">
                 <div className="logo">
                     <img onClick={()=>navigate('/')} src="https://upload.wikimedia.org/wikipedia/en/a/a2/RUPP_logo.PNG" alt="" />

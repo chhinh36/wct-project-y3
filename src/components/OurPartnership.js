@@ -4,7 +4,7 @@ import {GrFormNext} from 'react-icons/gr';
 
 const OurPartnership = () => {
     return (
-        <section className="our-partnership">
+        <section className="our-partnership en-font">
             <div className="black-background">
                 <div className="global-wrapper our-partnership-wrapper">
                     <div className="title">
