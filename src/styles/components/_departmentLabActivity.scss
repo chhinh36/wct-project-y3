@@ -2,16 +2,18 @@
     width: 100%;
     background: $primary-color;
     .department-lab-activity-wrapper{
-        padding: 20px 10px;
+        padding: 60px 10px;
         .title{
             width: 100%;
             display: flex;
             align-items: flex-start;
             justify-content: center;
             flex-direction: column;
+            margin-bottom: 60px;
             h2{
-                font-size: 34px;
+                font-size: 45px;
                 color: $white-color;
+                text-transform: uppercase;
             }
             .underline{
                 width: 100px;

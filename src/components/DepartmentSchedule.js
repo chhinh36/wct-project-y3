@@ -2,7 +2,7 @@ import React from 'react'
 
 const DepartmentSchedule = () => {
     return (
-        <section className="department-schedule">
+        <section className="department-schedule en-font">
             <div className="global-wrapper schedule-wrapper">
                 <div className="title">
                     <h2>Schedule</h2>

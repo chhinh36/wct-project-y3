@@ -7,7 +7,7 @@ import 'swiper/swiper.min.css'
 const DepartmentLabActivity = () => {
     SwiperCore.use([EffectCoverflow,Navigation, Autoplay]);
     return (
-        <div className="department-lab-activity">
+        <div className="department-lab-activity en-font">
             <div className="global-wrapper department-lab-activity-wrapper">
                 <div className="title">
                     <h2>Student Lab Activity</h2>
