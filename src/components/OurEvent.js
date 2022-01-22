@@ -8,7 +8,7 @@ import 'swiper/swiper.min.css'
 const OurEvent = () => {
     SwiperCore.use([Autoplay, Navigation]);
     return (
-        <section className="our-event">
+        <section className="our-event en-font">
             <div className="global-wrapper">
                 <div className="title">
                     <h2>Our Event</h2>

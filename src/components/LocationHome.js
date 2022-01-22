@@ -4,7 +4,7 @@ import {HiLocationMarker} from 'react-icons/hi';
 
 const LocationHome = () => {
     return (
-        <section className="location-home">
+        <section className="location-home en-font">
             <div className="global-wrapper">
                 <div className="title">
                     <h2>Location</h2>

@@ -22,10 +22,15 @@
             }
         }
     }
+
+    
+
     .banner{
         width: 100%;
         height: calc(100vh - 67px);
         position: relative;
+        text-transform: uppercase;
+
         img{
             width: 100%;
             height: 100%;
@@ -39,33 +44,73 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.5);
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 0 10px;
+            
+            // new academic section
+            .academic-warpper {
+                display: flex;
+                flex-direction: column;
+                row-gap: 40px;
+                
+                justify-content: center;
+                margin-right: 20%;
+                margin-bottom: auto;
+                
+                margin-top: 5%;
+                margin-left: 5%;
+                height: 450px;
+                
+                h2 {
+                    // position: absolute;
+                    font-size: 60px;
+                    color: $white-color;
+                    text-transform: uppercase;
+                    
+                }
+
+                h4 {
+                    color: $white-color;
+                    font-size: 35px;
+                    color: rgb(214, 214, 214);
+                }
+
+                .btn-banner {
+                    margin-right: auto;
+                    border-radius: 20px;
+                    background-color: rgb(255, 66, 66);;
+                    color: $white-color;
+                    padding: 5px 20px;
+                    font-weight: bold;
+                }
+            }
             .title{
                 text-align: center;
                 h2{
                     color: $white-color;
                     font-size: 80px;
+                    
                 }
             }
             > p{
                 color: $white-color;
-                font-size: 26px;
+                font-size: 28px;
                 max-width: 900px;
                 margin-top: 40px;
                 opacity: 0.8;
             }
             .btn-banner{
                 color: $white-color;
-                background: $primary-color;
+                background: rgb(255, 66, 66);
                 font-size: 28px;
                 padding: 5px 15px;
-                border-radius: 2px;
+                border-radius: 20px;
                 margin-top: 40px;
+                font-weight: bold;
                 &:hover{
                     opacity: 0.8;
                 }
@@ -73,6 +118,7 @@
             @media screen and (max-width: 920px) {
                 .title h2{
                     font-size: 60px;
+                    
                 }
                 > p{
                     font-size: 22px;
