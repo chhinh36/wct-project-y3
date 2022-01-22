@@ -33,10 +33,11 @@
                 height: 30%;
                 text-align: center;
                 h3{
-                    color: $primary-color;
+                    color: #000;
                     font-size: 28px;
+                    transition: 0.2s;
                     &:hover{
-                        opacity: 0.8;
+                        color: $primary-color;
                     }
                 }
             }
@@ -44,6 +45,9 @@
         .swiper-button-prev,
         .swiper-button-next{
             color: brown;
+            &::after{
+                font-weight: bold;
+            }
         }
 
     }

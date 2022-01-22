@@ -115,6 +115,9 @@ header{
                 color: $primary-color;
                 font-size: 15px;
                 min-width: 98px;
+                &:hover{
+                    background-color: #dfdfdf;
+                }
             }
             .menu-icon{
                 color: $white-color;
