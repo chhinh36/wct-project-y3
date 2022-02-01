@@ -7,8 +7,8 @@ import NewsDetail from './NewsDetail';
 import Register from './Register';
 import Signup from './Signup';
 import Signin from './Singin';
-import UniversityInfo from './UniversityInfo';
-import Registration from './Registration';
+import UniversityInfo from './UniversityInfo';  
+import FormRegistration from './FormRegistration';
 
 
 export {
@@ -22,5 +22,8 @@ export {
     Signup,
     Signin,
     UniversityInfo,
-    Registration
+    FormRegistration,
+    
+
+    
 };
