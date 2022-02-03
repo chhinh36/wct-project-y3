@@ -13,7 +13,7 @@ const Sidebar = () => {
         setDashTitle(item.text);
       }
     })
-  }, [pathname]);
+  }, [pathname, setDashTitle]);
   return (
       <div className={isSidebarOpen ? "sidebar-wrapper":"sidebar-wrapper hide-sidebar"}>
         <div className="link-wrapper">

@@ -12,25 +12,25 @@ const Sidebar = () => {
             </div>
             <ul>
                 <li>
-                    <a>Home</a>
+                    <a href="/" onClick={(e)=>e.preventDefault()}>Home</a>
                 </li>
                 <li>
-                    <a>Faaculty</a>
+                    <a href="/" onClick={(e)=>e.preventDefault()}>Faaculty</a>
                 </li>
                 <li>
-                    <a>Scholarship</a>
+                    <a href="/" onClick={(e)=>e.preventDefault()}>Scholarship</a>
                 </li>
                 <li>
-                    <a>Information</a>
+                    <a href="/" onClick={(e)=>e.preventDefault()}>Information</a>
                 </li>
                 <li>
-                    <a>School Map</a>
+                    <a href="/" onClick={(e)=>e.preventDefault()}>School Map</a>
                 </li>
                 <li>
-                    <a>Service</a>
+                    <a href="/" onClick={(e)=>e.preventDefault()}>Service</a>
                 </li>
                 <li>
-                    <a>Contact</a>
+                    <a href="/" onClick={(e)=>e.preventDefault()}>Contact</a>
                 </li>
             </ul>
         </aside>

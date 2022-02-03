@@ -52,7 +52,7 @@ header{
                 }
             }
         }
-        ul{
+        ul.center{
             flex-grow: 1;
             display: flex;
             justify-content: center;
@@ -133,6 +133,110 @@ header{
             @media screen and (max-width: 1050px){
                 .menu-icon{
                     display: block;
+                }
+            }
+            .user{
+                position: relative;
+                color: #fff;
+                width: 50px;
+                height: 50px;
+                padding: 5px;
+                cursor: pointer;
+                &:hover{
+                    .dropdown{
+                        display: block;
+                        animation: slow-appear 0.3s linear;
+                    }
+                    @keyframes slow-appear {
+                        from{
+                            opacity: 0;
+                        }
+                        to{
+                            opacity: 1;
+                        }
+                    }
+                }
+                .icon-user{
+                    width: 100%;
+                    height: 100%;
+                    transition: 0.2s;
+                    &:hover{
+                        opacity: 0.8;
+                    }
+                }
+                .dropdown{
+                    display: none;
+                    position: absolute;
+                    width: 300px;
+                    top: 100%;
+                    transform: translateX(-95%);
+                    background-color: #fff;
+                    border-radius: 8px 0 8px 8px;
+                    overflow: hidden;
+                    .user-header{
+                        color: #000;
+                        width: 100%;
+                        background: #FFEDED;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        padding: 8px;
+                        h3{
+                            font-size: 22px;
+                            color: #363636;
+                            word-break: break-all;
+                        }
+                        h4{
+                            font-weight: normal;
+                            font-size: 14px;
+                            word-break: break-all;
+                        }
+                    }
+                    ul.user-body{
+                        display: flex;
+                        flex-direction: column;
+                        padding: 10px 0;
+                        li{
+                            font-size: 16px;
+                            transition: 0.3s;
+                            color: #000;
+                            padding: 8px 10px;
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            cursor: pointer;
+                            &:hover{
+                                padding-left: 15px;
+                                background: #ffdede;
+                                color: $primary-color;
+                            }
+                            a{
+                                color: inherit;
+                            }
+                        }
+                    }
+                    .user-footer{
+                        width: 100%;
+                        background: #FFEDED;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        color: #000;
+                        padding: 8px 15px;
+                        font-weight: bold;
+                        span{
+                            font-weight: normal;
+                        }
+                        .icon-signout{
+                            font-size: 16px;
+                            cursor: pointer;
+                            transition: 0.2s;
+                            &:hover{
+                                color: $primary-color;
+                            }
+                        }
+                    }
                 }
             }
         }

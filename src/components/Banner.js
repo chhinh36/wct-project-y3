@@ -41,7 +41,6 @@ const Banner = () => {
                     <div className="title">
                         <h2>Welcome to</h2>
                         <h2>RUPP University</h2>
-                        <h2></h2>
                     </div>
                     <p>jjadipisicing elit. Cum assumenda porro voluptate temporibus ipsum, accusantium ullam tempora debitis alias corporis.</p>
                     <Link to="/formregistration" className='btn-banner'>Register now</Link>

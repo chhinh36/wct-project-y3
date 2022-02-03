@@ -1,11 +1,16 @@
 import React, {useState} from 'react'
-import {Link} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import GoogleLogo from '../images/google.png';
 import FacebookLogo from '../images/facebook.png';
 import {FaRegEnvelope, FaEyeSlash, FaEye} from 'react-icons/fa';
 import Logo from '../images/rupp-logo.png';
+import axios from 'axios';
+import {useUserContext} from '../contexts/userContext';
+import {toast} from 'react-toastify';
 
 const Singin = () => {
+    const navigate = useNavigate();
+    const {saveUser, removeUser} = useUserContext();
     const [showPassword, setShowPassword] = useState(false);
     const [loading, setLoading] = useState(false);
     const [inputValue, setInputValue] = useState({
@@ -20,14 +25,27 @@ const Singin = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
-        
+        try {
+            const {data} = await axios.post('/api/v1/auth/login', inputValue);
+            saveUser(data.user);
+            setInputValue({email: '', password: ''});
+            toast.success("Sign in successfully!")
+            navigate('/')
+        } catch (error) {
+            if(error.response){
+                const {msg} = error.response.data;
+                toast.error(msg)
+                console.log(error);
+            }
+            removeUser();
+        }
         setLoading(false);
     }
     const googleLogin = async () => {
-        
+        window.open('https://rupp-registration-api.herokuapp.com/api/v1/auth/google', '_self');
     }
     const facebookLogin = async () => {
-        
+        window.open('https://rupp-registration-api.herokuapp.com/api/v1/auth/facebook', '_self');
     }
     return (
         <section id="signin-signup-section" className="font-poppin">

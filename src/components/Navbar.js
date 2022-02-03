@@ -1,11 +1,14 @@
-import React from 'react'
-import {NavLink, Link} from 'react-router-dom';
-import Logo from '../images/rupp-logo.png'
-import {HiOutlineSearch, HiMenu} from 'react-icons/hi'
-import {useActionContext} from '../contexts/actionContext'
+import React from 'react';
+import {NavLink} from 'react-router-dom';
+import Logo from '../images/rupp-logo.png';
+import {HiOutlineSearch, HiMenu} from 'react-icons/hi';
+import {useActionContext} from '../contexts/actionContext';
+import {useUserContext} from '../contexts/userContext';
+import UserDropdown from './UserDropdown';
 
 function Navbar() {
     const {isSearch, OpenSearch, openSidebar} = useActionContext();
+    const {myUser} = useUserContext();
     return (
         <header className="en-font">
             <div className="wrapper">
@@ -19,7 +22,7 @@ function Navbar() {
                         </form>
                     </div>
                 </NavLink>
-                <ul>
+                <ul className="center">
                     <li>
                         <NavLink className="color-white" to="/">
                             Home
@@ -39,7 +42,14 @@ function Navbar() {
                 </ul>
                 <div className="right">
                     <HiMenu className="menu-icon" onClick={openSidebar} />
-                    <NavLink to="/signup" className="btn btn-signup">Sign Up</NavLink>
+                    {
+                        myUser?(
+                            <UserDropdown />
+                        ):(
+                            <NavLink to="/signup" className="btn btn-signup">Sign Up</NavLink>
+                        )
+                    }
+                    
                 </div>
             </div>
         </header>

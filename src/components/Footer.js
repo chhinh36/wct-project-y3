@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useNavigate   } from 'react-router-dom'
-import {BsFillTelephoneFill, BsFacebook, BsTelegram, BsYoutube, AiFillTwitterCircle, BsTwitter} from 'react-icons/bs';
+import {BsFillTelephoneFill, BsFacebook, BsTelegram, BsYoutube, BsTwitter} from 'react-icons/bs';
 import {MdEmail} from 'react-icons/md';
 import {BiCopyright} from 'react-icons/bi';
 

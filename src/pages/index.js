@@ -11,6 +11,7 @@ import UniversityInfo from './UniversityInfo';
 import FormRegistrationUniPage from './FormRegistrationUniPage';
 import FormRegistrationFacultyPage from './FormRegistrationFacultyPage';
 import FormRegistrationBackgroundPage from './FormRegistrationBackgroundPage';
+import SendToken from './SendToken';
 
 
 export {
@@ -27,6 +28,5 @@ export {
     FormRegistrationUniPage,
     FormRegistrationFacultyPage,
     FormRegistrationBackgroundPage,
-
-    
+    SendToken
 };

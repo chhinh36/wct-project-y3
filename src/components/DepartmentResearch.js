@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {MdOutlineKeyboardArrowRight, MdOutlineKeyboardArrowDown} from 'react-icons/md';
+import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 
 const DepartmentResearch = () => {
     const [indexActive, setIndexActive] = useState(0);

@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import AcademicStaffInfo from './AcademicStaffInfo';
-import {SlideDown} from 'react-slidedown'
 import 'react-slidedown/lib/slidedown.css'
 
 const AcademicStaff = () => {

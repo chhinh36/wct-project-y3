@@ -24,7 +24,7 @@ const LocationHome = () => {
                         </ul>
                     </div>
                     <div className="right">
-                        <iframe title="Google Map Our Store" src="http://maps.google.com/maps?q=11.561880001775203,104.85298717093411&z=15&output=embed" height="450" style={{border: '0'}} allowfullscreen="" loading="lazy"></iframe>
+                        <iframe title="Google Map Our Store" src="http://maps.google.com/maps?q=11.561880001775203,104.85298717093411&z=15&output=embed" height="450" style={{border: '0'}} allowFullScreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>

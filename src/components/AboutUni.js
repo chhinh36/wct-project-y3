@@ -6,7 +6,7 @@ const AboutUni = () => {
         <section className='en-font' id="about-university" >
             <div className="global-wrapper about-wrapper">
                 <div className="left">
-                    <iframe style={{pointerEvents: "none"}} src="https://www.youtube.com/embed/wjxBvFr2ZMU?controls=0&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe style={{pointerEvents: "none"}} src="https://www.youtube.com/embed/wjxBvFr2ZMU?controls=0&autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 <div className="right">
                     <h2>About <font>Our University</font></h2>

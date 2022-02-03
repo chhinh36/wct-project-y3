@@ -28,6 +28,7 @@ import FormRegistrationUni from "./FormRegistrationUni";
 import FormRegistrationFaculty from "./FormRegistrationFaculty";
 import FormRegistrationBackground from "./FormRegistrationBackground";
 import { UniversityInfo } from "../pages";
+import AuthWrapper from "./AuthWrapper";
 
 export {
     Navbar,
@@ -59,5 +60,6 @@ export {
     UniversityInfo,
     FormRegistrationUni,
     FormRegistrationFaculty,
-    FormRegistrationBackground
+    FormRegistrationBackground,
+    AuthWrapper
 };
