@@ -138,7 +138,7 @@ const FormRegistrationBackground = () => {
 
                     <Link to=''>
                         <span className='btn'>
-                            បន្ទាប់
+                            ចុះឈ្មោះ
                         </span>
                     </Link>
 
