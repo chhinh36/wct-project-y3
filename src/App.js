@@ -14,7 +14,18 @@ import {
   UniversityInfo,
   Registration
 } from './pages';
+import {
+  DashboardPage
+} from './dashboard/pages';
 import {Navbar, Footer, Sidebar} from './components';
+import {
+  DashboardLayout,
+  FacultyPage,
+  DepartmentPage,
+  PostPage,
+  CheckRegistrationPage
+} from './dashboard/pages/index';
+import {ActionContextProvider} from './dashboard/contexts/actionContext';
 
 function App() {
   return (
@@ -23,6 +34,18 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/dashboard" element={
+            <ActionContextProvider>
+              <DashboardLayout />
+            </ActionContextProvider>
+
+          }>
+            <Route index element={<DashboardPage />} />
+            <Route path="faculty" element={<FacultyPage />} />
+            <Route path="department" element={<DepartmentPage />} />
+            <Route path="post" element={<PostPage />} />
+            <Route path="check-registration" element={<CheckRegistrationPage />} />
+          </Route>
           <Route path="/news" element={<News />} />
           <Route path="/news/:id" element={<NewsDetail />} />
           <Route path="/:faculty" element={<Faculty />} />

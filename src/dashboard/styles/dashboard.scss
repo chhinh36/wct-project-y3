@@ -1,0 +1,23 @@
+.dashboard-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #F0F4F8;
+    z-index: 101;
+    .wrapper-nav-body{
+        width: 100%;
+        height: calc(100vh - 80px);
+        display: flex;
+        .dashboard-page{
+            flex: 1;
+            height: 100%;
+            padding: 30px;
+            overflow-y: scroll;
+            @media screen and (max-width: 1000px) {
+                padding: 10px;
+            }
+        }
+    }
+}

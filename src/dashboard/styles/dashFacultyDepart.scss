@@ -1,0 +1,27 @@
+.dash-faculty-wrapper,
+.dash-department-wrapper{
+    .header-add{
+        background: #fff;
+        border-radius: 5px;
+        padding: 15px 20px;
+        box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
+        .btn-add{
+            border: none;
+            outline: none;
+            background: #266978;
+            color: #fff;
+            padding: 5px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+                background: #1f5663;
+            }
+        }
+    }
+}

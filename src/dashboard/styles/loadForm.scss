@@ -1,0 +1,20 @@
+.form-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 115;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    transform: scale(0);
+    transition: 0.1s;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    overflow-y: scroll;
+    &.show-form{
+        transform: scale(1);
+    }
+}

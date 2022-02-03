@@ -1,0 +1,89 @@
+.dash-nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.1);
+    background: #fff;
+    z-index: 110;
+    position: sticky;
+    top: 0;
+    .menu{
+        font-size: 34px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: #266978;
+        @media screen and (max-width: 950px) {
+            font-size: 28px;
+        }
+        .icon{
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+                transform: rotate(180deg);
+            }
+        }
+        .t-logo{
+            font-weight: bold;
+            a{
+                color: inherit;
+            }
+        }
+    }
+    .dash-title{
+        @media screen and (max-width: 700px) {
+            display: none;
+        }
+        h2{
+            font-size: 28px;
+            @media screen and (max-width: 950px) {
+                font-size: 24px;
+            }
+        }
+    }
+    .dash-user{
+        position: relative;
+        .user{
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+            @media screen and (max-width: 950px) {
+                font-size: 20px;
+            }
+            &:hover{
+                color: #266978;
+            }
+        }
+        .dropdown{
+            position: absolute;
+            bottom: -40px;
+            width: 100%;
+            border: none;
+            outline: none;
+            background: #266978;
+            color: #fff;
+            font-size: 18px;
+            padding: 5px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            display: none;
+            &.active{
+                display: block;
+            }
+            @media screen and (max-width: 950px) {
+                font-size: 16px;
+            }
+            &:hover{
+                background: #205864;
+            }
+        }
+    }
+}
