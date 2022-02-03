@@ -1,0 +1,31 @@
+#error-page {
+    width: 100%;
+    height: calc(100vh - 72px);
+    background: $white-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+    .not-found {
+        font-size: 160px;
+        font-weight: 700px;
+
+        span:nth-child(odd) {
+            color: $primary-color;
+        }
+    }
+
+    > p {
+        font-size: 24px;
+    }
+    
+    > .btn-not-found {
+        background: $primary-color;
+        color: $white-color;
+        padding: 8px 15px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+}

@@ -12,7 +12,10 @@ import {
   Signup,
   Signin,
   UniversityInfo,
-  FormRegistration
+  FormRegistrationUniPage,
+  FormRegistrationFacultyPage,
+  FormRegistrationBackgroundPage,
+  
 } from './pages';
 import {Navbar, Footer, Sidebar} from './components';
 
@@ -24,14 +27,17 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/news" element={<News />} />
+          <Route path="/formregistration" element={<FormRegistrationUniPage />} />
+          <Route path="/formregistrationfaculty" element={<FormRegistrationFacultyPage />} />
+          <Route path="/formregistrationbackground" element={<FormRegistrationBackgroundPage />} />
           <Route path="/news/:id" element={<NewsDetail />} />
           <Route path="/:faculty" element={<Faculty />} />
-          <Route path="/:faculty/:department" element={<Department />} />
+          <Route path="/:faculty/department" element={<Department />} />
           <Route path="/university-info" element={<UniversityInfo />} />
           <Route path="/register" element={<Register />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/registration" element={<FormRegistration />} />
+          
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

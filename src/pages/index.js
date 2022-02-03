@@ -8,7 +8,9 @@ import Register from './Register';
 import Signup from './Signup';
 import Signin from './Singin';
 import UniversityInfo from './UniversityInfo';  
-import FormRegistration from './FormRegistration';
+import FormRegistrationUniPage from './FormRegistrationUniPage';
+import FormRegistrationFacultyPage from './FormRegistrationFacultyPage';
+import FormRegistrationBackgroundPage from './FormRegistrationBackgroundPage';
 
 
 export {
@@ -22,8 +24,9 @@ export {
     Signup,
     Signin,
     UniversityInfo,
-    FormRegistration,
-    
+    FormRegistrationUniPage,
+    FormRegistrationFacultyPage,
+    FormRegistrationBackgroundPage,
 
     
 };

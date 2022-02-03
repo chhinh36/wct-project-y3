@@ -30,7 +30,7 @@ const Banner = () => {
                             
                         </div>
                         <h4> ratione fugit nam debitis nesciunt alias hic. Lorem ipsum dolor</h4>
-                        <Link to="/registration" className='btn-banner'>Apply now</Link>
+                        <Link to="/formregistration" className='btn-banner'>Apply now</Link>
                     </div>
                     
                 </div>
@@ -44,7 +44,7 @@ const Banner = () => {
                         <h2></h2>
                     </div>
                     <p>jjadipisicing elit. Cum assumenda porro voluptate temporibus ipsum, accusantium ullam tempora debitis alias corporis.</p>
-                    <Link to="/registration" className='btn-banner'>Register now</Link>
+                    <Link to="/formregistration" className='btn-banner'>Register now</Link>
                 </div>
             </SwiperSlide>
             
