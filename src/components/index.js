@@ -24,6 +24,9 @@ import NewsTitle from "./NewsTitle";
 import NewsBox from "./NewsBox";
 import SingleRecent from "./SingleRecent";
 import SingleOtherArticle from "./SingleOtherArticle";
+import FormRegistrationUni from "./FormRegistrationUni";
+import FormRegistrationFaculty from "./FormRegistrationFaculty";
+import FormRegistrationBackground from "./FormRegistrationBackground";
 import { UniversityInfo } from "../pages";
 
 export {
@@ -53,5 +56,8 @@ export {
     NewsBox,
     SingleRecent,
     SingleOtherArticle,
-    UniversityInfo
+    UniversityInfo,
+    FormRegistrationUni,
+    FormRegistrationFaculty,
+    FormRegistrationBackground
 };
