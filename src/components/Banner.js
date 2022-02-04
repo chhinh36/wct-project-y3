@@ -38,6 +38,7 @@ const Banner = () => {
             <SwiperSlide className="banner">
                 <img src="https://dcfwfuaf91uza.cloudfront.net/online/wp-content/uploads/Liberty-University-Admissions-scaled.jpg" alt="University" />
                 <div className="banner-info">
+
                     <div className="title">
                         <h2>Welcome to</h2>
                         <h2>RUPP University</h2>
@@ -47,8 +48,14 @@ const Banner = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide className="banner">
-                <img src="https://www.forteinsurance.com/Assets/Covid19/banner.png" alt="University" />
-                <div className="banner-info"></div>
+            <div className='banner-info'>
+                <div className='covid-news'>
+                    <img src="https://www.forteinsurance.com/Assets/Covid19/banner.png" alt="University" />
+                </div>
+                    
+                
+            </div>
+               
                 
             </SwiperSlide>
 
