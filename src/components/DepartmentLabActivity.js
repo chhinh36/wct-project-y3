@@ -37,19 +37,19 @@ const DepartmentLabActivity = () => {
                         loop={true}
                     >
                         <SwiperSlide className="slide">
-                            <img src="https://i.pinimg.com/originals/48/75/83/48758395f3e1a3de61049f68b444a0e8.jpg" alt="" />
+                            <img src="https://ruppservice.ferupp.com/photos/shares/home/slides/4.jpg" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="slide">
                             <img src="https://www.marshfieldlabs.org/imagecatalog/Services/Labs-Services-Overview-Education.jpg" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="slide">
-                            <img src="https://ak.picdn.net/shutterstock/videos/5669114/thumb/1.jpg" alt="" />
+                            <img src="https://ruppservice.ferupp.com/photos/shares/home/slides/4.jpg" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="slide">
                             <img src="https://ak.picdn.net/shutterstock/videos/5669114/thumb/1.jpg" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="slide">
-                            <img src="https://chem.uiowa.edu/sites/chem.uiowa.edu/files/styles/home_feature/public/field/image/_DSC1960.jpg?itok=1WonLDzJ" alt="" />
+                            <img src="https://ruppservice.ferupp.com/photos/shares/home/slides/4.jpg" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className="slide">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaSiuFGo4bE82vcWGyjhwc4zlmjgIXtkJVgn39Hhe3T0B2PY6CpN7Z1I2xkJGQSm4FIrI&usqp=CAU" alt="" />

@@ -25,7 +25,7 @@ const DepartmentSchedule = () => {
                 </div>
                 <div className="body-table">
                     <div className="semester">
-                        <h3>Semester 1</h3>
+                        <h3>Semester I</h3>
                     </div>
                     <table>
                         <tr>
@@ -74,7 +74,7 @@ const DepartmentSchedule = () => {
                 </div>
                 <div className="body-table">
                     <div className="semester">
-                        <h3>Semester 1</h3>
+                        <h3>Semester II</h3>
                     </div>
                     <table>
                         <tr>

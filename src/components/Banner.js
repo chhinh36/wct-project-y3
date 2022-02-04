@@ -46,6 +46,12 @@ const Banner = () => {
                     <Link to="/formregistration" className='btn-banner'>Register now</Link>
                 </div>
             </SwiperSlide>
+            <SwiperSlide className="banner">
+                <img src="https://www.forteinsurance.com/Assets/Covid19/banner.png" alt="University" />
+                <div className="banner-info"></div>
+                
+            </SwiperSlide>
+
             
         </Swiper>
     )

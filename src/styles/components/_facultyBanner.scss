@@ -9,7 +9,7 @@
         min-height: calc(100vh - 200px);
     }
     .text-wrapper{
-        padding: 30px;
+        padding: 100px;
         width: 100%;
         min-height: calc(100vh - 67px);
         background: rgba(0, 0, 0, 0.6);
@@ -23,8 +23,10 @@
         .faculty-name{
             border-left: 8px solid #047DDE;
             color: $white-color;
+            
+            
             h2{
-                margin-left: 10px;
+                margin-left: 30px;
                 font-size: 80px;
                 @media screen and (max-width: 920px) {
                     font-size: 60px;
@@ -37,7 +39,7 @@
                 }
             }
             h5{
-                margin-left: 10px;
+                margin-left: 30px;
                 font-size: 50px;
                 @media screen and (max-width: 920px) {
                     font-size: 26px;

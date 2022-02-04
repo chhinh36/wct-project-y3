@@ -7,7 +7,7 @@ const SingleRecent = () => {
         <div className="news-most-recent single-box">
             <div className="img-box">
                 <Link to="/">
-                    <img src="https://quomodosoft.com/html/newsprk/assets/img/header/widget/tab1.jpg" alt="" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdOjqWNRPC_yGv7wZ9b0wB0yr1OzW0sPReirt1fprBKV7dmf0CWpS4oyqTq82SIM6tu9g&usqp=CAU" alt="" />
                 </Link>
             </div>
             <div className="info">

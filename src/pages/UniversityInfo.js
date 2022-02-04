@@ -1,8 +1,8 @@
 import React from 'react'
 
 const UniversityInfo = () => {
-    return (
-        <section className='uni-info global-wrapper'>
+    return ( 
+        <section className='uni-info global-wrapper en-font'>
             <div className='description history'>
                 <h2>History</h2>
                 

@@ -7,6 +7,7 @@
         @media screen and (max-width: 920px){
             padding: 25px;
         }
+
         &::after{
             font-size: 28px;
             color: $white-color;
@@ -55,15 +56,10 @@
             .academic-warpper {
                 display: flex;
                 flex-direction: column;
-                row-gap: 40px;
-                
                 justify-content: center;
-                margin-right: 20%;
-                margin-bottom: auto;
-                
-                margin-top: 5%;
-                margin-left: 5%;
-                height: 450px;
+                row-gap: 40px;
+                margin: 10% 10% auto 10%;
+
                 
                 h2 {
                     // position: absolute;
@@ -81,12 +77,42 @@
 
                 .btn-banner {
                     margin-right: auto;
-                    border-radius: 20px;
+                    border-radius: 10px;
                     background-color: rgb(255, 66, 66);;
                     color: $white-color;
                     padding: 5px 20px;
                     font-weight: bold;
                 }
+
+                @media screen and(max-width: 865px) {
+                    h2 {
+                        font-size: 40px;
+                    }
+
+                    h4 {
+                        font-size: 25px;
+                    }
+
+                    .btn-banner {
+                        font-size: 14px;
+                    }
+                }
+
+                @media screen and(max-width: 500px) {
+                    
+                    h2 {
+                        font-size: 32px;
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                    }
+
+                    .btn-banner {
+                        font-size: 12px;
+                    }
+                }
+                
             }
             .title{
                 text-align: center;
@@ -108,7 +134,7 @@
                 background: rgb(255, 66, 66);
                 font-size: 28px;
                 padding: 5px 15px;
-                border-radius: 20px;
+                border-radius: 10px;
                 margin-top: 40px;
                 font-weight: bold;
                 &:hover{

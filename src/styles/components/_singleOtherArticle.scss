@@ -8,7 +8,7 @@
     .img-box{
         height: 200px;
         overflow: hidden;
-        img{
+        img{    
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -19,17 +19,21 @@
         }
     }
     .info{
-        padding: 20px 0;
+        padding: 0 15px;
         display: flex;
         flex-direction: column;
         h5{
-            font-size: 20px;
-            color: initial;
+            color: rgb(83, 83, 83);
+            font-size: 26px;
+            // text-align: justify;
+            // color: initial;
             &:hover{
-                color: red;
+                color: $primary-color;
             }
         }
         span{
+            font-size: 18px;
+            color: rgb(82, 82, 82);
             margin-top: auto;
         }
     }

@@ -1,5 +1,5 @@
 .faculty{
-    background: $section-color;
+    background: #ffefef;
     padding: 60px 20px;
     .title{
         width: 100%;
@@ -7,6 +7,7 @@
         margin-bottom: 60px;
         h2{
             font-size: 45px;
+            text-transform: uppercase;
         }
     }
     .faculty-container{

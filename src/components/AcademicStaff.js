@@ -14,7 +14,7 @@ const AcademicStaff = () => {
         <section className="academic-staff en-font">
             <div className="global-wrapper academic-staff-wrapper">
                 <div className="title">
-                    <h3>Academic Staff</h3>
+                    <h2>Academic Staff</h2>
                 </div>
                 <div className="body">
                     <div className="left">
