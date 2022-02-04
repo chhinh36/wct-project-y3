@@ -3,14 +3,14 @@ import {Link} from 'react-router-dom';
 
 const NewsBox = () => {
     return (
-        <div className="news-box">
+        <div className="news-box en-font">
             <div className="news-box-wrapper global-wrapper">
                 {
                     Array.from({length: 20}).map((_, index)=>{
                         return (
                             <div className="single-box" key={index}>
                                 <div className="img-box">
-                                    <img src="https://i.ytimg.com/vi/0111UzSdlnc/maxresdefault.jpg" alt="" onClick={()=>window.open("https://i.ytimg.com/vi/0111UzSdlnc/maxresdefault.jpg")} />
+                                    <img src="https://www.commonwealthco.net/wp-content/uploads/2020/02/Scholarship-Program-8.5x11-scaled.jpg" alt="" onClick={()=>window.open("https://i.ytimg.com/vi/0111UzSdlnc/maxresdefault.jpg")} />
                                 </div>
                                 <div className="info">
                                     <Link to={`/news/${index}`}>

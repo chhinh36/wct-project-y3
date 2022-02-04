@@ -2,7 +2,7 @@ import React from 'react'
 
 const DepartmentBanner = () => {
     return (
-        <section className="department-banner">
+        <section className="department-banner en-font">
             <div className="department-banner-black">
                 <div className="global-wrapper department-banner-wrapper">
                     <h2>Welcome to</h2>

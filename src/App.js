@@ -15,6 +15,7 @@ import {
   FormRegistrationUniPage,
   FormRegistrationFacultyPage,
   FormRegistrationBackgroundPage,
+  FormSubmit,
   SendToken
 } from './pages';
 import {
@@ -74,9 +75,10 @@ function App() {
             } />
             <Route path="/formregistrationfaculty" element={<FormRegistrationFacultyPage />} />
             <Route path="/formregistrationbackground" element={<FormRegistrationBackgroundPage />} />
+            <Route path="/formsubmit" element={<FormSubmit />} />
             <Route path="/news/:id" element={<NewsDetail />} />
             <Route path="/:faculty" element={<Faculty />} />
-            <Route path="/:faculty/department" element={<Department />} />
+            <Route path="/:faculty/:department" element={<Department />} />
             <Route path="/university-info" element={<UniversityInfo />} />
             <Route path="/register" element={<Register />} />
             <Route path="/signin" element={<Signin />} />

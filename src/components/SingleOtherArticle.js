@@ -6,7 +6,7 @@ const SingleOtherArticle = () => {
         <div className="other-article-news sinlge-box">
             <div className="img-box">
                 <Link to="/">
-                    <img src="https://wp.quomodosoft.com/newsprk/wp-content/uploads/elementor/thumbs/46-p50lfgcu7my0avocdyunu05fiu3zz41aiwsq8txifs.png" alt="" />
+                    <img src="https://eonreality.com/wp-content/uploads/2020/11/ALC_AR_VR_XR.jpg" alt="" />
                 </Link>
             </div>
             <div className="info">

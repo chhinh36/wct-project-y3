@@ -1,6 +1,6 @@
 .faculty-department{
-    background: $body-gray;
-    padding: 0px 10px;
+    background: #ffefef;
+    padding: 60px 10px;
     .faculty-department-wrapper{
         padding: 30px 0px;
         padding-bottom: 0;
@@ -9,9 +9,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-bottom: 30px;
+            margin-bottom: 60px;
             h2{
-                font-size: 34px;
+                font-size: 45px;
+                text-transform: uppercase;
             }
         }
         .body-wrapper{
@@ -20,16 +21,23 @@
             .single-department{
                 width: 100%;
                 display: flex;
-                gap: 20px;
-                padding: 20px;
+                gap: 60px;
+                padding: 60px;
                 border: 1px solid $body-gray;
-                @media screen and (max-width: 650px){
+
+                &:hover {
+                    transition: .2s ease-in-out;
+                    -webkit-box-shadow: 0px 0px 6px 4px rgba(232,232,232,1);
+                    -moz-box-shadow: 0px 0px 6px 4px rgba(232,232,232,1);
+                    box-shadow: 0px 0px 6px 4px rgba(232,232,232,1);
+                }
+                @media screen and (max-width: 830px){
                     flex-direction: column;
                 }
                 .left{
                     flex: 0 0 350px;
                     height: 250px;
-                    @media screen and (max-width: 650px) {
+                    @media screen and (max-width: 830px) {
                         flex: 0 0 100%;
                     }
                     img{
