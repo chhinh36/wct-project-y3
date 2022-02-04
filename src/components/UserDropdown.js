@@ -15,7 +15,8 @@ const UserDropdown = () => {
     const handleLogout = async () => {
         setLoading(true);
         try {
-            await axios.get('/api/v1/auth/logout');
+            const logout = await axios.get('/api/v1/auth/logout');
+            console.log(logout);
             removeUser();
             navigate("/");
             toast.success("Logout successfully.");
@@ -43,7 +44,7 @@ const UserDropdown = () => {
                 }
                 <li>
                     <BsFillFileEarmarkCheckFill className="icon" />
-                    <span><Link to="/">Check Registration</Link></span>
+                    <span><Link to="/formregistration">Check Registration</Link></span>
                 </li>
                 <li>
                     <IoSettingsSharp className="icon" />

@@ -4,9 +4,11 @@ import { Swiper, SwiperSlide } from 'swiper/react/swiper-react.js';
 import SwiperCore, { Autoplay, Navigation  } from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
+import {useUserContext} from '../contexts/userContext';
 
 const Banner = () => {
     SwiperCore.use([Autoplay, Navigation]);
+    const {myUser} = useUserContext();
     return (
         <Swiper
             spaceBetween={10}
@@ -30,7 +32,7 @@ const Banner = () => {
                             
                         </div>
                         <h4> ratione fugit nam debitis nesciunt alias hic. Lorem ipsum dolor</h4>
-                        <Link to="/formregistration" className='btn-banner'>Apply now</Link>
+                        <Link to={myUser?"/formregistration":"/signin"} className='btn-banner'>Apply now</Link>
                     </div>
                     
                 </div>
@@ -43,7 +45,7 @@ const Banner = () => {
                         <h2>RUPP University</h2>
                     </div>
                     <p>jjadipisicing elit. Cum assumenda porro voluptate temporibus ipsum, accusantium ullam tempora debitis alias corporis.</p>
-                    <Link to="/formregistration" className='btn-banner'>Register now</Link>
+                    <Link to={myUser?"/formregistration":"/signin"} className='btn-banner'>Register now</Link>
                 </div>
             </SwiperSlide>
             

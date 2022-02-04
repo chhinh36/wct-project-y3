@@ -31,6 +31,9 @@ import {
 import {ActionContextProvider} from './dashboard/contexts/actionContext';
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ProtectedRoute from './protected/ProtectedRoute';
+import DashProtectedRoute from './protected/DashProtectedRoute';
+import {FacultyProvider} from './dashboard/contexts/facultyContext';
 
 function App() {
   return (
@@ -41,10 +44,16 @@ function App() {
           <Sidebar />
           <Routes>
             <Route path="/" element={<Home/>} />
+
+            {/* start dashboard */}
             <Route path="/dashboard" element={
-              <ActionContextProvider>
-                <DashboardLayout />
-              </ActionContextProvider>
+              <DashProtectedRoute>
+                <ActionContextProvider>
+                  <FacultyProvider>
+                    <DashboardLayout />
+                  </FacultyProvider>
+                </ActionContextProvider>
+              </DashProtectedRoute>
 
             }>
               <Route index element={<DashboardPage />} />
@@ -53,11 +62,16 @@ function App() {
               <Route path="post" element={<PostPage />} />
               <Route path="check-registration" element={<CheckRegistrationPage />} />
             </Route>
+            {/* end dashboard */}
 
             <Route path="/send-token" element={<SendToken />} />
 
             <Route path="/news" element={<News />} />
-            <Route path="/formregistration" element={<FormRegistrationUniPage />} />
+            <Route path="/formregistration" element={
+              <ProtectedRoute>
+                <FormRegistrationUniPage />
+              </ProtectedRoute>
+            } />
             <Route path="/formregistrationfaculty" element={<FormRegistrationFacultyPage />} />
             <Route path="/formregistrationbackground" element={<FormRegistrationBackgroundPage />} />
             <Route path="/news/:id" element={<NewsDetail />} />
