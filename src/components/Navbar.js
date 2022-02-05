@@ -1,14 +1,14 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Logo from '../images/rupp-logo.png';
-import {HiOutlineSearch, HiMenu} from 'react-icons/hi';
-import {useActionContext} from '../contexts/actionContext';
-import {useUserContext} from '../contexts/userContext';
+import { HiOutlineSearch, HiMenu } from 'react-icons/hi';
+import { useActionContext } from '../contexts/actionContext';
+import { useUserContext } from '../contexts/userContext';
 import UserDropdown from './UserDropdown';
 
 function Navbar() {
-    const {isSearch, OpenSearch, openSidebar} = useActionContext();
-    const {myUser} = useUserContext();
+    const { isSearch, OpenSearch, openSidebar } = useActionContext();
+    const { myUser } = useUserContext();
     return (
         <header className="en-font">
             <div className="wrapper">
@@ -28,12 +28,31 @@ function Navbar() {
                             Home
                         </NavLink>
                     </li>
-                    <li>Faculty</li>
-                    <li>Scholarship</li>
-                    <li>News</li>
-                    <li>Map</li>
-                    <li>Contact</li>
-                    <li className={`${isSearch?"search active":"search"}`}>
+                    <li><NavLink to='/:faculty'>
+                        Faculty
+                    </NavLink></li>
+
+                    <li>
+                        <NavLink to='/'>
+                        Scholarship
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/'>
+                        News
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/'>
+
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/'>
+                        Contact
+                        </NavLink>
+                    </li>
+                    <li className={`${isSearch ? "search active" : "search"}`}>
                         <form>
                             <input type="text" placeholder="Search" />
                             <HiOutlineSearch onClick={OpenSearch} className="icon" />
@@ -43,13 +62,13 @@ function Navbar() {
                 <div className="right">
                     <HiMenu className="menu-icon" onClick={openSidebar} />
                     {
-                        myUser?(
+                        myUser ? (
                             <UserDropdown />
-                        ):(
+                        ) : (
                             <NavLink to="/signup" className="btn btn-signup">Sign Up</NavLink>
                         )
                     }
-                    
+
                 </div>
             </div>
         </header>

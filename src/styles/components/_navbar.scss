@@ -1,28 +1,80 @@
 header{
     width: 100%;
-    background-color: $primary-color;
+    background-color: $white-color;
     position: sticky;
     top: 0;
     left: 0;
-    padding: 16px;
+    padding: 20px;
     z-index: 100;
+    @media screen and(max-width: 1326px) {
+           
+        padding: 10px;
+    }
+    @media screen and(max-width: 1030px) {
+       
+        padding: 5px;
+    }
+    @media screen and(max-width: 415px) {
+       
+        padding: 10px 18px;
+    }
     .wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1400px;
+        max-width: 1500px;
         margin: 0 auto;
+        
         .logo{
             display: flex;
             align-items: center;
             gap: 15px;
             img{
                 width: 50px;
+                @media screen and(max-width: 1030px) {
+                    width: 45px;
+                }
+                @media screen and(max-width: 900px) {
+                    width: 36px;
+                }
+                @media screen and(max-width: 680px) {
+                    width: 30px;
+                }
+                @media screen and(max-width: 485px) {
+                    width: 23px;
+                }
+                @media screen and(max-width: 415px) {
+                    width: 26px;
+                }
             }
             p{
-                color: $white-color;
+                color: $primary-color;
                 font-weight: bold;
-                font-size: 1.2rem;
+                font-size: 2rem;
+
+                @media screen and(max-width: 1326px) {
+                    font-size: 1.5rem;
+                }
+                @media screen and(max-width: 1030px) {
+                    font-size: 1.2rem;
+                    padding: 0px;
+                }
+                @media screen and(max-width: 900px) {
+                    font-size: 1rem;
+                    
+                }
+
+                @media screen and(max-width: 680px) {
+                    font-size: .7rem;
+                    
+                }
+                @media screen and(max-width: 485px) {
+                    font-size: .6rem;
+                }
+                @media screen and(max-width: 415px) {
+                    font-size: 1.1rem;
+                }
+
             }
             .search-box{
                 display: none;
@@ -37,6 +89,7 @@ header{
                         padding: 5px;
                         border-radius: 15px;
                     }
+                    
                     .icon{
                         position: absolute;
                         top: 50%;
@@ -44,9 +97,20 @@ header{
                         transform: translateY(-50%);
                         color: $primary-color;
                     }
+
+                    @media screen and(max-width: 1326px) {
+                        .frm-control {
+                            display: none;
+                        }
+
+                        .icon {
+                            display: none;
+                        }
+                    }
                 }
             }
-            @media screen and (max-width: 1050px) {
+            @media screen and (max-width: 1326px) {
+            
                 .search-box{
                     display: block;
                 }
@@ -56,21 +120,64 @@ header{
             flex-grow: 1;
             display: flex;
             justify-content: center;
+            
             li{
-                padding: 0.8rem 1.2rem;
+                text-transform: uppercase;
+                padding: 1rem 1.2rem;
                 cursor: pointer;
-                color: $white-color;
-                font-size: 1rem;
+                color: $primary-color;
+                font-size: 1.5rem;
                 font-weight: 500;
+
+                @media screen and(max-width: 1326px) {
+                    font-size: 1.2rem;
+                }
+
+                @media screen and (max-width: 1030px) {
+                    font-size: 1rem;
+                    padding: .8rem 1rem;
+                }
+
+                @media screen and (max-width: 900px) {
+                    font-size: .8rem;
+                    padding: .8rem .7rem;
+                }
+
+                @media screen and(max-width: 680px) {
+                    font-size: 9px;
+                    padding: .7rem .5rem;
+                    
+                }
+                @media screen and(max-width: 485px) {
+                    font-size: 8px;
+                    padding: .7rem .4rem;
+                    
+                }
+
+                @media screen and (max-width: 415px) {
+                    display: none;
+                    
+                }
+
+                &:hover {
+                    opacity: .7;
+                    transition: .2s;
+                }
+                
+        
                 &.search{
+                    
                     form{
                         width: 30px;
                         position: relative;
                         transition: 0.5s linear;
+                        @media screen and (max-width: 1326px) {
+                            display: none;
+                        }
                         input{
                             transition: 0.5s linear;
                             width: 100%;
-                            padding: .3rem;
+                            padding: .5rem;
                             outline: none;
                             border: none;
                             border-radius: 1rem;
@@ -84,7 +191,8 @@ header{
                             right: 0.4rem;
                             color: $primary-color;
                             font-size: 1.2rem;
-                            color: $white-color;
+                            
+                            
                         }
                     }
                     &.active{
@@ -92,6 +200,10 @@ header{
                             width: 200px;
                             input{
                                 background: white;
+                                border: 1px solid $primary-color;
+                                @media screen and (max-width: 1326px) {
+                                    display: none;
+                                }
                             }
                             .icon{
                                 color: $primary-color;
@@ -101,11 +213,12 @@ header{
                 }
             }
         }
-        @media screen and (max-width: 1050px) {
-            ul{
-                display: none;
-            }
-        }
+        // @media screen and (max-width: 1326px) {
+            
+        //     ul{
+        //         display: none;
+        //     }
+        // }
         .right{
             display: flex;
             align-items: center;
@@ -113,15 +226,56 @@ header{
             .btn-signup{
                 background-color: $white-color;
                 color: $primary-color;
-                font-size: 15px;
+                font-size: 20px;
                 min-width: 98px;
+                border: 1px solid $primary-color;
+                padding: 10px 20px;
+                
                 &:hover{
-                    background-color: #dfdfdf;
+                    background-color: $primary-color;
+                    color: $white-color;
+                    transition: .3s all linear;
                 }
+
+                @media screen and (max-width: 1326px) {
+                    font-size: 13px;
+                    padding: 7px 20px;
+                }
+                @media screen and (max-width: 1030px) {
+                    font-size: 13px;
+                    padding: 5px 20px;
+                    
+                }
+                @media screen and (max-width: 900px) {
+                    font-size: 10px;
+                    // padding: 5px 18px;
+                    min-width: 70px;
+                    border: none;
+                    
+                }
+                @media screen and (max-width: 680px) {
+                    font-size: 8px;
+                    // padding: 5px 18px;
+                    min-width: 65px;
+                    
+                }
+                @media screen and (max-width: 485px) {
+                    font-size: 6px;
+                    // padding: 5px 18px;
+                    min-width: 60px;
+                    
+                }
+                @media screen and (max-width: 415px) {
+                    
+                    display: none;
+                    
+                    
+                }
+
             }
             .menu-icon{
-                color: $white-color;
-                font-size: 34px;
+                color: $primary-color;
+                font-size: 30px;
                 margin-right: 1rem;
                 cursor: pointer;
                 transition: .5s;
@@ -129,10 +283,14 @@ header{
                 &:hover{
                     transform: rotate(180deg);
                 }
+
+                
             }
-            @media screen and (max-width: 1050px){
+            @media screen and (max-width: 415px){
+                
                 .menu-icon{
                     display: block;
+                    
                 }
             }
             .user{
@@ -216,27 +374,7 @@ header{
                             }
                         }
                     }
-                    .user-footer{
-                        width: 100%;
-                        background: #FFEDED;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        color: #000;
-                        padding: 8px 15px;
-                        font-weight: bold;
-                        span{
-                            font-weight: normal;
-                        }
-                        .icon-signout{
-                            font-size: 16px;
-                            cursor: pointer;
-                            transition: 0.2s;
-                            &:hover{
-                                color: $primary-color;
-                            }
-                        }
-                    }
+                    
                 }
             }
         }

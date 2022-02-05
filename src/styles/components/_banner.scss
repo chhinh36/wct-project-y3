@@ -22,10 +22,13 @@
                 opacity: 1;
             }
         }
+
+        @media screen and(max-width: 415px) {
+            display: none;
+        }
     }
 
     
-
     .banner{
         width: 100%;
         height: calc(100vh - 67px);
