@@ -1,6 +1,9 @@
 .scholarship{
     padding: 60px;
     background: $primary-color;
+    @media screen and (max-width: 1000px) {
+        padding: 60px 10px;
+    }
     .title{
         width: 100%;
         margin-bottom: 60px;

@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const FormRegistrationUni = () => {
+const FormRegistrationUni = ({nextFormPage}) => {
   return (
     <section className='kh-font' id='registrationUni'>
 
@@ -118,17 +117,13 @@ const FormRegistrationUni = () => {
         </div>
         <div className='btn-registion'>
 
-          <Link to='/'>
-            <span className='btn'>
+            <span className='btn btn-disable'>
               ត្រឡប់ក្រោយ
             </span>
-          </Link>
 
-          <Link to='/formregistrationfaculty'>
-            <span className='btn'>
+            <span className='btn next-btn-right' onClick={nextFormPage}>
               បន្ទាប់
             </span>
-          </Link>
 
         </div>
 

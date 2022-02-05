@@ -56,6 +56,9 @@ header{
             flex-grow: 1;
             display: flex;
             justify-content: center;
+            @media screen and (max-width: 1050px) {
+                display: none;
+            }
             li{
                 padding: 0.8rem 1.2rem;
                 cursor: pointer;
@@ -99,11 +102,6 @@ header{
                         }
                     }
                 }
-            }
-        }
-        @media screen and (max-width: 1050px) {
-            ul{
-                display: none;
             }
         }
         .right{

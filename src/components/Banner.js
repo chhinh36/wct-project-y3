@@ -54,8 +54,6 @@ const Banner = () => {
                 <div className='covid-news'>
                     <img src="https://www.forteinsurance.com/Assets/Covid19/banner.png" alt="University" />
                 </div>
-                    
-                
             </div>
                
                 

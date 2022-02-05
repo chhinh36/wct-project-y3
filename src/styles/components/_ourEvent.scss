@@ -1,6 +1,9 @@
 .our-event{
     padding: 60px 20px;
     background: $primary-color;
+    @media screen and (max-width: 800px) {
+        padding: 60px 10px;
+    }
     .title{
         width: 100%;
         text-align: center;

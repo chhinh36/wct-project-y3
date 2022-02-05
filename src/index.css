@@ -86,3 +86,9 @@
     transform: rotate(360deg);
   }
 }
+
+/* btn disable */
+.btn-disable{
+  pointer-events: none;
+  opacity: 0.6;
+}
