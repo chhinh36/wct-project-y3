@@ -7,6 +7,9 @@
     }
     .our-partnership-wrapper{
         padding: 60px;
+        @media screen and (max-width: 877px){
+            padding: 60px 10px;
+        }
         .title{
             width: 100%;
             display: flex;
@@ -31,6 +34,9 @@
             margin-top: 25px;
             @media screen and (max-width: 877px) {
                 grid-template-columns: repeat(2, 1fr);
+            }
+            @media screen and (max-width: 600px) {
+                grid-template-columns: 1fr;
             }
             .single-partnership{
                 background: $white-color;

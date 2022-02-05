@@ -1,6 +1,9 @@
 .late-news-home{
     padding: 60px 20px;
     background: #ffefef;
+    @media screen and (max-width: 800px) {
+        padding: 60px 10px;
+    }
     .title{
         width: 100%;
         display: flex;

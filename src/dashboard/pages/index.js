@@ -4,6 +4,7 @@ import FacultyPage from "./FacultyPage";
 import DepartmentPage from "./DepartmentPage";
 import PostPage from "./PostPage";
 import CheckRegistrationPage from "./CheckRegistrationPage";
+import DashUserPage from "./DashUserPage";
 
 export {
     DashboardLayout,
@@ -11,5 +12,6 @@ export {
     FacultyPage,
     DepartmentPage,
     PostPage,
-    CheckRegistrationPage
+    CheckRegistrationPage,
+    DashUserPage
 }

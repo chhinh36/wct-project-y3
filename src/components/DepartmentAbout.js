@@ -9,7 +9,7 @@ const DepartmentAbout = () => {
                 </div>
                 <div className="body-wrapper">
                     <div className="left">
-                        <img src="http://www.rupp.edu.kh/fe/images/it.jpg" alt="ite-image" />
+                        <img src="http://www.rupp.edu.kh/fe/images/it.jpg" alt="ite" />
                     </div>
                     <div className="right">
                         <p> axime nulla, iusto deleniti sed asperiores obcaecati nihil dolorem reprehenderit deserunt! Consequuntur blanditiis non, corporis possimus eius minima explicabo pariatur repellendus laboriosam officiis. A, explicabo! Modi vero accusamus, iste esse ducimus corporis suscipit reiciendis! Repellendus voluptate laboriosam illo nobis! <span className="read-more">Read more...</span> </p>

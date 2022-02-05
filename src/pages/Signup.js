@@ -75,7 +75,7 @@ const Signup = () => {
 
 
     return (
-        <section id="signin-signup-section" className="font-poppin">
+        <section id="signin-signup-section" className="en-font">
             <div className="sign-wrapper">
                 <div className="sigin-body">
                     <div className="header">

@@ -15,8 +15,7 @@ const UserDropdown = () => {
     const handleLogout = async () => {
         setLoading(true);
         try {
-            const logout = await axios.get('/api/v1/auth/logout');
-            console.log(logout);
+            await axios.get('/api/v1/auth/logout');
             removeUser();
             navigate("/");
             toast.success("Logout successfully.");

@@ -27,6 +27,7 @@ import SingleOtherArticle from "./SingleOtherArticle";
 import FormRegistrationUni from "./FormRegistrationUni";
 import FormRegistrationFaculty from "./FormRegistrationFaculty";
 import FormRegistrationBackground from "./FormRegistrationBackground";
+import FormSubmit from './FormSubmit';
 import { UniversityInfo } from "../pages";
 import AuthWrapper from "./AuthWrapper";
 
@@ -61,5 +62,6 @@ export {
     FormRegistrationUni,
     FormRegistrationFaculty,
     FormRegistrationBackground,
-    AuthWrapper
+    FormSubmit,
+    AuthWrapper,
 };
