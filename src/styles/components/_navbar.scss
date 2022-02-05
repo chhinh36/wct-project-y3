@@ -45,7 +45,7 @@ header{
                     width: 23px;
                 }
                 @media screen and(max-width: 415px) {
-                    width: 26px;
+                    width: 35px;
                 }
             }
             p{
@@ -121,9 +121,9 @@ header{
             flex-grow: 1;
             display: flex;
             justify-content: center;
-            @media screen and (max-width: 1050px) {
-                display: none;
-            }
+            // @media screen and (max-width: 1050px) {
+            //     display: none;
+            // }
             li{
                 text-transform: uppercase;
                 padding: 1rem 1.2rem;
